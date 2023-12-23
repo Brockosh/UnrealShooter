@@ -1947,3 +1947,1313 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.12.23-10.57.17:856][278]Cmd: MAP CHECKDEP NOCLEARLOG
 [2023.12.23-10.57.17:856][278]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.35ms to complete.
 [2023.12.23-10.57.28:011][316]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2023.12.23-11.07.17:548][258]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2023.12.23-11.07.17:549][258]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/StarterContent/Maps/LevelOne' took 0.004
+[2023.12.23-11.07.51:853][877]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.23-11.07.51:857][877]LogContentBundle: [LevelOne(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.23-11.07.51:857][877]LogWorldPartition: Display: GenerateStreaming for 'LevelOne' started...
+[2023.12.23-11.07.51:923][877]LogWorldPartition: Display: GenerateStreaming for 'LevelOne' took 65 ms
+[2023.12.23-11.07.51:923][877]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.23-11.07.51:923][877]PIE: New page: PIE session: LevelOne (24 Dec 2023, 8:07:51 am)
+[2023.12.23-11.07.51:945][877]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_LevelOne
+[2023.12.23-11.07.51:952][877]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007056s)
+[2023.12.23-11.07.51:952][877]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/LevelOne.LevelOne to /Game/StarterContent/Maps/UEDPIE_0_LevelOne.LevelOne (0.007092s)
+[2023.12.23-11.07.51:954][877]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2023.12.23-11.07.51:955][877]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.23-11.07.51:955][877]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.23-11.07.51:955][877]LogAIModule: Creating AISystem for world LevelOne
+[2023.12.23-11.07.51:956][877]LogWorldPartition: ULevel::OnLevelLoaded(LevelOne)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.23-11.07.51:956][877]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.23-11.07.51:956][877]LogWorldPartition: UWorldPartition::Initialize : World = LevelOne, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.23-11.07.51:956][877]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.23-11.07.51:958][877]LogContentBundle: [LevelOne(Standalone)] Creating new contrainer.
+[2023.12.23-11.07.51:958][877]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 574 ms)
+[2023.12.23-11.07.51:958][877]LogPlayLevel: PIE: World Init took: (0.002978s)
+[2023.12.23-11.07.51:958][877]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.12.23-11.07.51:958][877]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.23-11.07.51:958][877]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.23-11.07.51:958][877]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.23-11.07.51:958][877]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.23-11.07.51:958][877]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.23-11.07.51:958][877]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.23-11.07.51:958][877]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.23-11.07.51:958][877]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.23-11.07.51:958][877]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.23-11.07.51:958][877]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.23-11.07.51:958][877]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.23-11.07.51:960][877]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.23-11.07.51:993][877]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek USB2.0 Audio)
+[2023.12.23-11.07.51:993][877]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.23-11.07.51:993][877]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.23-11.07.51:993][877]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.23-11.07.51:994][877]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2023.12.23-11.07.51:994][877]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2023.12.23-11.07.51:994][877]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2023.12.23-11.07.51:994][877]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2023.12.23-11.07.51:994][877]LogInit: FAudioDevice initialized with ID 3.
+[2023.12.23-11.07.51:994][877]LogAudio: Display: Audio Device (ID: 3) registered with world 'LevelOne'.
+[2023.12.23-11.07.51:994][877]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2023.12.23-11.07.51:998][877]LogLoad: Game class is 'GameModeBase'
+[2023.12.23-11.07.51:998][877]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 0) at 2023.12.23-21.37.51
+[2023.12.23-11.07.51:999][877]LogWorld: Bringing up level for play took: 0.000630
+[2023.12.23-11.07.52:000][877]LogOnline: OSS: Created online subsystem instance for: :Context_2
+[2023.12.23-11.07.52:001][877]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(45), CellsToLoad(0), CellsToUnload(0)
+[2023.12.23-11.07.52:001][877]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-200.000 Y=0.000 Z=92.000,P=0.000000 Y=180.000000 R=-0.000000
+[2023.12.23-11.07.52:003][877]LogStreaming: Display: FlushAsyncLoading(): 60 QueuedPackages, 0 AsyncPackages
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/F/0L/RTB429GP23MOK5XUYWBY42.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/F/0L/RTB429GP23MOK5XUYWBY42.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/E/X3/17TSFBDFDP17COWT2P0GQW.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/E/RU/5X223DW0PESJNOC1HJ97Q8.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/E/MR/1NYDIIHYDD7MWY35FY0YF6.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/E/JJ/90MXUKZQWAR5BOA1LHW6T6.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/E/JJ/90MXUKZQWAR5BOA1LHW6T6.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/E/H5/IFKM5V5KCOHNUNOWM82LO8.StaticMesh_HLOD0_Instancing_7 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/E/H5/IFKM5V5KCOHNUNOWM82LO8.StaticMesh_HLOD0_Instancing_6 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/E/H5/IFKM5V5KCOHNUNOWM82LO8.StaticMesh_HLOD0_Instancing_5 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/E/H5/IFKM5V5KCOHNUNOWM82LO8.StaticMesh_HLOD0_Instancing_4 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/E/6Q/95QIE809G6K6XFXWXCBV6X.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/D/XC/4XGAO7Y060ODH81KH2N8SQ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/D/SI/4O1D3MNPGH6ON6W4V8LK76.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/D/SI/4O1D3MNPGH6ON6W4V8LK76.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/D/GG/6BQVB4F2G85C1MGFA1V6A1.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/C/J4/70DP0NRONWMQ3HPAFME4L7.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/C/IX/ODCBN0F1XIGRZHU0RQNIFR.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/C/G6/HS7Z6SNUV77XGI8EWSQPUK.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/B/YS/BYC8A9YKX9RFDG0I34Y7HD.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/B/YS/BYC8A9YKX9RFDG0I34Y7HD.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/B/NK/TL71X5T8M13HI2IF7JMFMB.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/B/1W/OXKLABPUA26VJBCKWFL6O3.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/A/0K/UXJFMMIFKBKHN6NSIRH2KU.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/9/Q6/59DVGEIUGUNIBRNA3C2Q7T.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/9/LQ/VW0FWXVUZTOQ8DWEO9M8QQ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/9/C0/2H881W7KH5A40LKSCX8X9T.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/9/C0/2H881W7KH5A40LKSCX8X9T.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/8/RV/BRWWVB9Q9UHPEZZEZ97KKG.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/8/QM/H2Q8S7JSD1HX86SB8U6AVT.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/8/8D/74M4WWZHR7VB4UXENLQ8ER.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/8/8D/74M4WWZHR7VB4UXENLQ8ER.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/7/WQ/N8X3IKA5AIAVWB2SEYXSA0.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/7/WQ/N8X3IKA5AIAVWB2SEYXSA0.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/7/OU/L9Q30T3N7SQYV0HDRA6ZX5.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/7/HI/ATOW8OHD0YJ1M2A13PJW5W.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/7/6T/A87JBMMSUB31IY4LOFX2IM.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/7/2V/2A5N2RCCYBRQHYFKD8QDTX.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/6/HA/Y0SVA641B3R8TK0YDASILC.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/6/GD/X2PSWPJKKY6LHYYAVLKMW4.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/6/GD/X2PSWPJKKY6LHYYAVLKMW4.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/6/FR/C8IAIK9WC7X5Q9907TYA78.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/6/3N/P61ET7JVLOUJ6XPINN51KJ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/5/VR/M3V8RW7RIZC8HVIA18FCHV.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/4/HB/4ZW0DF6NEL3DAXIZY8AYT8.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/3/QA/XIKCVMIDVTW8KZAGZ92GG5.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/3/K0/C79R9MOCU8RNT6S6VF957M.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/3/SZ/6N9VGTGSB7DRVTCIR67NUT.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/3/T0/U0B8BG4UL89UOQNV8CQWGS.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/4/9A/4FJGZVF13SAY9O0P9RPTJQ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/3/T0/U0B8BG4UL89UOQNV8CQWGS.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/3/25/MLV7K4OOGTK8QY74OR23F9.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/3/CV/H6OWPLYFUGX3GQPAWSC2OA.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/2/PO/KSC0DY8ET11R1MHH1WBQOR.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/1/EP/NLCBGZMY3MGR06260XUUDJ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/3/CV/H6OWPLYFUGX3GQPAWSC2OA.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/1/BC/O3L42TB1CKYFQTN9CTBMN3.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/2/R2/RQ4P4HZHGB6N1DRB2JLTZZ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/4/CX/2UHCGDT7LWL48R3S5YA6NC.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/4/CX/2UHCGDT7LWL48R3S5YA6NC.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/4/HB/4ZW0DF6NEL3DAXIZY8AYT8.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/2/JV/PT3Q13K6630Y58KWQ530E0.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/0/XN/OKU94P209EXBINBYEFXY4Y.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.07.52:146][877]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/StarterContent/Maps/LevelOne/0/W8/UDZNF0MKJ2K58CHX14CNQB.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.07.52:176][877]PIE: Server logged in
+[2023.12.23-11.07.52:177][877]PIE: Play in editor total start time 0.32 seconds.
+[2023.12.23-11.08.00:576][568]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.23-11.08.00:576][568]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_LevelOne
+[2023.12.23-11.08.00:587][568]LogWorld: UWorld::CleanupWorld for LevelOne, bSessionEnded=true, bCleanupResources=true
+[2023.12.23-11.08.00:587][568]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.23-11.08.00:587][568]LogContentBundle: [LevelOne(Standalone)] Deleting container.
+[2023.12.23-11.08.00:589][568]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.23-11.08.00:592][568]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.23-11.08.00:598][568]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.23-11.08.00:599][568]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2023.12.23-11.08.00:599][568]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.12.23-11.08.00:600][568]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.12.23-11.08.00:603][568]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.23-11.08.00:612][568]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2023.12.23-11.08.00:672][570]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2023.12.23-11.08.17:764][431]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.23-11.17.26:617][348]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2023.12.23-11.17.26:618][348]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/StarterContent/Maps/LevelOne' took 0.005
+[2023.12.23-11.22.23:928][859]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SpecularProfile_64.svg'. File could not be found
+[2023.12.23-11.22.28:250][266]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.12.23-11.22.28:259][266]LogContentBrowser: Creating deferred item: NewFolder
+[2023.12.23-11.22.28:268][267]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.12.23-11.22.36:777][232]LogContentBrowser: Attempting asset rename: NewFolder -> _Map
+[2023.12.23-11.22.36:777][232]LogContentBrowser: End creating deferred item NewFolder
+[2023.12.23-11.24.11:068][493]LogSlate: Window 'Save Level As' being destroyed
+[2023.12.23-11.24.12:524][493]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.23-11.24.12:527][493]LogWorldPartition: ULevel::OnLevelLoaded(LevelOne)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2023.12.23-11.24.12:527][493]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.23-11.24.12:527][493]LogWorldPartition: UWorldPartition::Initialize : World = LevelOne, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.23-11.24.12:527][493]LogContentBundle: [LevelOne(Standalone)] Creating new contrainer.
+[2023.12.23-11.24.12:527][493]LogWorldPartition: Display: WorldPartition initialize took 254 us (total: 574 ms)
+[2023.12.23-11.24.12:549][493]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.23-11.24.12:831][493]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Map/LevelOne" FILE="D:/UnrealShooter/UnrealShooter/Content/_Map/LevelOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.12.23-11.24.12:842][493]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2023.12.23-11.24.12:844][493]LogSavePackage: Moving output files for package: /Game/_Map/LevelOne
+[2023.12.23-11.24.12:844][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/LevelOne4E0C03FA4DB89DF59F90289EED9CC57C.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/_Map/LevelOne.umap'
+[2023.12.23-11.24.12:850][493]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/__ExternalActors__/_Map/LevelOne/5/HC/TW6LS3G2XEOFUPWU1OI6DA
+/Game/__ExternalActors__/_Map/LevelOne/0/3G/DE0L8LDKZPTLL98V4R8PWR
+/Game/__ExternalActors__/_Map/LevelOne/2/LB/Q67GFDX8QC9JSESW38ER78
+/Game/__ExternalActors__/_Map/LevelOne/4/R4/CZOR7FHSY0ST6IPQKCZPAD
+/Game/__ExternalActors__/_Map/LevelOne/6/DH/TDRPYTRIJT3OURXBBH4H5B
+/Game/__ExternalActors__/_Map/LevelOne/8/RJ/XFHGPUGP5UIZWTVUP0I0ST
+/Game/__ExternalActors__/_Map/LevelOne/9/5Q/TYAJGUR373B4YWDR61Q6G3
+/Game/__ExternalActors__/_Map/LevelOne/B/4U/QCAG2DPJ59LS7EMG9TT9PL
+/Game/__ExternalActors__/_Map/LevelOne/B/ZP/93LCJTUVZD9U4BV2H341C5
+/Game/__ExternalActors__/_Map/LevelOne/D/UW/1Q86DW92KXRHO0LW4Y24NR
+/Game/__ExternalActors__/_Map/LevelOne/2/TH/DS3DAHY27UCSXFFDF5M97O
+/Game/__ExternalActors__/_Map/LevelOne/E/HV/WBPKWN9BEMFNRBPDFLY08V
+/Game/__ExternalActors__/_Map/LevelOne/C/UR/L46TQFXYXJN8IJWQFF8OWI
+/Game/__ExternalActors__/_Map/LevelOne/5/34/0710OLCD5KWUOPQOBK9JL3
+/Game/__ExternalActors__/_Map/LevelOne/6/58/9T9CS6RDR21EJY93S46JYI
+/Game/__ExternalActors__/_Map/LevelOne/0/CR/ISXMLSSBTL8TD2DVOW4Y4E
+/Game/__ExternalActors__/_Map/LevelOne/7/UP/8SZJ053GV5QY4GXI7NY6H8
+/Game/__ExternalActors__/_Map/LevelOne/7/PL/4KS78Y5T2WHV697K9QQHB1
+/Game/__ExternalActors__/_Map/LevelOne/C/26/WINILW9MM4COSZ9GJ8YUP9
+/Game/__ExternalActors__/_Map/LevelOne/E/VY/Q7VPGGIF3WFW3B17LH7VMD
+/Game/__ExternalActors__/_Map/LevelOne/2/U8/WYUEO9DD2U9C9VMNU6ERRS
+/Game/__ExternalActors__/_Map/LevelOne/3/SP/KYG51BHZFSWI0WKWL2X9MU
+/Game/__ExternalActors__/_Map/LevelOne/8/X3/YLCDDNPVRLQBMIN49JEVCW
+/Game/__ExternalActors__/_Map/LevelOne/1/RW/IB69DDDJ8POA5REMRUSJ0R
+/Game/__ExternalActors__/_Map/LevelOne/E/4C/QUKHFQPJ10P5XY6KF6HX1G
+/Game/__ExternalActors__/_Map/LevelOne/E/G8/SVEK5MYV42XRXGWLNXQYF1
+/Game/__ExternalActors__/_Map/LevelOne/D/YL/YUSKTUJYPU1LONYWYHMT7N
+/Game/__ExternalActors__/_Map/LevelOne/D/ES/MQ1TP3XF21KVGGSBPO8PDG
+/Game/__ExternalActors__/_Map/LevelOne/C/RJ/6BIAQ2GLJ8LWLC0YACRUUB
+/Game/__ExternalActors__/_Map/LevelOne/2/P4/UFDW0N17FWA9OQX9TLXGE2
+/Game/__ExternalActors__/_Map/LevelOne/A/ER/F3DBHCPIAHMO7DP177KDCI
+/Game/__ExternalActors__/_Map/LevelOne/6/ZF/AJ48PXMZ011Q3XFTYZRFJ0
+/Game/__ExternalActors__/_Map/LevelOne/D/F7/SDWA9QDAJMZF35M9GAVKV7
+/Game/__ExternalActors__/_Map/LevelOne/3/LO/7X6MF1VQ8E582QXYOFPEKI
+/Game/__ExternalActors__/_Map/LevelOne/D/TC/F3EHB9ALYH768UPEKS8LK6
+/Game/__ExternalActors__/_Map/LevelOne/2/KZ/QN80WOC700XY81YCB2N6HN
+/Game/__ExternalActors__/_Map/LevelOne/8/NB/XHKYDV0W7MNYCKX7GD3L0F
+/Game/__ExternalActors__/_Map/LevelOne/2/TN/V9C5ANYC4BDPFB79CIVDG7
+/Game/__ExternalActors__/_Map/LevelOne/7/UD/LLZT5OGURWX7X0L6JQPJ02
+/Game/__ExternalActors__/_Map/LevelOne/5/JO/EREG1TJA8I6YGPMS73WPFV
+/Game/__ExternalActors__/_Map/LevelOne/C/CQ/WYWQ7WT502A6UUZOAP20T4
+/Game/__ExternalActors__/_Map/LevelOne/2/NF/XPVN9FKO3ZA5CTUZS3WISN
+/Game/__ExternalActors__/_Map/LevelOne/D/X7/B5U079MIOIBBIZ2DEZ92FX
+/Game/__ExternalActors__/_Map/LevelOne/0/EZ/AN70V45VD0V5RCA9XFSKDI
+/Game/__ExternalActors__/_Map/LevelOne/7/4F/Q4VFR6YLB69XVEKDW70Q9O
+/Game/__ExternalActors__/_Map/LevelOne/A/74/CPE2WIB8MCCWJNMMMO2THZ
+/Game/__ExternalActors__/_Map/LevelOne/0/KG/R66HMPP16PN2H90DRTRMLK
+/Game/__ExternalActors__/_Map/LevelOne/C/5W/S0IF652UQA1UZNH5BJIST7
+/Game/__ExternalActors__/_Map/LevelOne/A/5R/JF0UG6FOW1NDA8L7I5HD8W
+/Game/__ExternalActors__/_Map/LevelOne/2/ON/NP3FG9XTG7VP1LDIQKL1EP
+/Game/__ExternalActors__/_Map/LevelOne/B/HO/QKB4V5H9K6S4SKFY5SD8DA
+/Game/__ExternalActors__/_Map/LevelOne/C/GM/I6K995TIOFLXAGZZUSDQJP
+/Game/__ExternalActors__/_Map/LevelOne/2/70/4DW1T6MOZVAMDOWRHN7XSE
+/Game/__ExternalActors__/_Map/LevelOne/8/D0/ULE1PS1VVOM3K22LM2BDB7
+/Game/__ExternalActors__/_Map/LevelOne/6/0P/SION8TVQGLNTOB5VURT56D
+/Game/__ExternalActors__/_Map/LevelOne/E/XE/2SH4122T9MOGDBEEOPECBY
+/Game/__ExternalActors__/_Map/LevelOne/E/SZ/38EQTBTFITZUS30R69ZJ7G
+/Game/__ExternalActors__/_Map/LevelOne/0/86/VSE481653YCDS9086F3RC7
+/Game/__ExternalActors__/_Map/LevelOne/3/X6/1QEFZEZJSPWXQKF05UOUVC
+/Game/__ExternalActors__/_Map/LevelOne/9/TZ/8HRVRT1F8376HR3JF04QYG
+/Game/__ExternalActors__/_Map/LevelOne/0/3E/UO336UCZMB8OD7EJMKK1ZG
+/Game/__ExternalActors__/_Map/LevelOne/5/LO/BYMVE4YCPH297YJ3WR9CQ9
+/Game/__ExternalActors__/_Map/LevelOne/3/0L/5BX19LFEFKXGJTQXQXWI8A
+/Game/__ExternalActors__/_Map/LevelOne/7/8M/Y4JI1N5MLTXACDX08IN6E1
+/Game/__ExternalActors__/_Map/LevelOne/0/O3/XGQY8G459PRFVPBLWIVRG7
+/Game/__ExternalActors__/_Map/LevelOne/A/UB/IQRKB7DJ5I35KRVEWGGCVC
+/Game/__ExternalActors__/_Map/LevelOne/8/9T/X4X5DUM51LGYOFGOHFCAK8
+/Game/__ExternalActors__/_Map/LevelOne/0/QQ/YZA6Y85NO3MUR1TDW75HN1
+/Game/__ExternalActors__/_Map/LevelOne/2/Z7/RG5NWHFUNZ0U17670GUKZN
+/Game/__ExternalActors__/_Map/LevelOne/A/KP/MBZW2USFFDMPI2JS0ZBBWV
+/Game/__ExternalActors__/_Map/LevelOne/A/QA/1879ONGM9088PLCS5JJMX6
+/Game/__ExternalActors__/_Map/LevelOne/E/L8/QPGKPECAQTJK5I6R6HF6I2
+/Game/__ExternalActors__/_Map/LevelOne/D/DO/GN8IEEBSDUS13TLH2SK2XU
+/Game/__ExternalActors__/_Map/LevelOne/D/LR/4WKR4ZSWU983ZUYTQOO9ZM
+/Game/__ExternalActors__/_Map/LevelOne/0/W8/UDZNF0MKJ2K58CHX14CNQB
+/Game/__ExternalActors__/_Map/LevelOne/0/XN/OKU94P209EXBINBYEFXY4Y
+/Game/__ExternalActors__/_Map/LevelOne/1/BC/O3L42TB1CKYFQTN9CTBMN3
+/Game/__ExternalActors__/_Map/LevelOne/1/EP/NLCBGZMY3MGR06260XUUDJ
+/Game/__ExternalActors__/_Map/LevelOne/2/JV/PT3Q13K6630Y58KWQ530E0
+/Game/__ExternalActors__/_Map/LevelOne/2/PO/KSC0DY8ET11R1MHH1WBQOR
+/Game/__ExternalActors__/_Map/LevelOne/2/R2/RQ4P4HZHGB6N1DRB2JLTZZ
+/Game/__ExternalActors__/_Map/LevelOne/3/25/MLV7K4OOGTK8QY74OR23F9
+/Game/__ExternalActors__/_Map/LevelOne/3/CV/H6OWPLYFUGX3GQPAWSC2OA
+/Game/__ExternalActors__/_Map/LevelOne/3/K0/C79R9MOCU8RNT6S6VF957M
+/Game/__ExternalActors__/_Map/LevelOne/3/QA/XIKCVMIDVTW8KZAGZ92GG5
+/Game/__ExternalActors__/_Map/LevelOne/3/SZ/6N9VGTGSB7DRVTCIR67NUT
+/Game/__ExternalActors__/_Map/LevelOne/3/T0/U0B8BG4UL89UOQNV8CQWGS
+/Game/__ExternalActors__/_Map/LevelOne/4/9A/4FJGZVF13SAY9O0P9RPTJQ
+/Game/__ExternalActors__/_Map/LevelOne/4/CX/2UHCGDT7LWL48R3S5YA6NC
+/Game/__ExternalActors__/_Map/LevelOne/4/HB/4ZW0DF6NEL3DAXIZY8AYT8
+/Game/__ExternalActors__/_Map/LevelOne/5/VR/M3V8RW7RIZC8HVIA18FCHV
+/Game/__ExternalActors__/_Map/LevelOne/6/3N/P61ET7JVLOUJ6XPINN51KJ
+/Game/__ExternalActors__/_Map/LevelOne/6/FR/C8IAIK9WC7X5Q9907TYA78
+/Game/__ExternalActors__/_Map/LevelOne/6/GD/X2PSWPJKKY6LHYYAVLKMW4
+/Game/__ExternalActors__/_Map/LevelOne/6/HA/Y0SVA641B3R8TK0YDASILC
+/Game/__ExternalActors__/_Map/LevelOne/7/2V/2A5N2RCCYBRQHYFKD8QDTX
+/Game/__ExternalActors__/_Map/LevelOne/7/6T/A87JBMMSUB31IY4LOFX2IM
+/Game/__ExternalActors__/_Map/LevelOne/7/HI/ATOW8OHD0YJ1M2A13PJW5W
+/Game/__ExternalActors__/_Map/LevelOne/7/OU/L9Q30T3N7SQYV0HDRA6ZX5
+/Game/__ExternalActors__/_Map/LevelOne/7/WQ/N8X3IKA5AIAVWB2SEYXSA0
+/Game/__ExternalActors__/_Map/LevelOne/8/8D/74M4WWZHR7VB4UXENLQ8ER
+/Game/__ExternalActors__/_Map/LevelOne/8/QM/H2Q8S7JSD1HX86SB8U6AVT
+/Game/__ExternalActors__/_Map/LevelOne/8/RV/BRWWVB9Q9UHPEZZEZ97KKG
+/Game/__ExternalActors__/_Map/LevelOne/9/C0/2H881W7KH5A40LKSCX8X9T
+/Game/__ExternalActors__/_Map/LevelOne/9/LQ/VW0FWXVUZTOQ8DWEO9M8QQ
+/Game/__ExternalActors__/_Map/LevelOne/9/Q6/59DVGEIUGUNIBRNA3C2Q7T
+/Game/__ExternalActors__/_Map/LevelOne/A/0K/UXJFMMIFKBKHN6NSIRH2KU
+/Game/__ExternalActors__/_Map/LevelOne/B/1W/OXKLABPUA26VJBCKWFL6O3
+/Game/__ExternalActors__/_Map/LevelOne/B/NK/TL71X5T8M13HI2IF7JMFMB
+/Game/__ExternalActors__/_Map/LevelOne/B/YS/BYC8A9YKX9RFDG0I34Y7HD
+/Game/__ExternalActors__/_Map/LevelOne/C/G6/HS7Z6SNUV77XGI8EWSQPUK
+/Game/__ExternalActors__/_Map/LevelOne/C/IX/ODCBN0F1XIGRZHU0RQNIFR
+/Game/__ExternalActors__/_Map/LevelOne/C/J4/70DP0NRONWMQ3HPAFME4L7
+/Game/__ExternalActors__/_Map/LevelOne/D/GG/6BQVB4F2G85C1MGFA1V6A1
+/Game/__ExternalActors__/_Map/LevelOne/D/SI/4O1D3MNPGH6ON6W4V8LK76
+/Game/__ExternalActors__/_Map/LevelOne/D/XC/4XGAO7Y060ODH81KH2N8SQ
+/Game/__ExternalActors__/_Map/LevelOne/E/6Q/95QIE809G6K6XFXWXCBV6X
+/Game/__ExternalActors__/_Map/LevelOne/E/H5/IFKM5V5KCOHNUNOWM82LO8
+/Game/__ExternalActors__/_Map/LevelOne/E/JJ/90MXUKZQWAR5BOA1LHW6T6
+/Game/__ExternalActors__/_Map/LevelOne/E/MR/1NYDIIHYDD7MWY35FY0YF6
+/Game/__ExternalActors__/_Map/LevelOne/E/RU/5X223DW0PESJNOC1HJ97Q8
+/Game/__ExternalActors__/_Map/LevelOne/E/X3/17TSFBDFDP17COWT2P0GQW
+/Game/__ExternalActors__/_Map/LevelOne/F/0L/RTB429GP23MOK5XUYWBY42
+/Game/__ExternalObjects__/_Map/LevelOne/2/J9/KYPJ2FB2S2TXSDSWOTOVHQ
+/Game/__ExternalObjects__/_Map/LevelOne/3/7Y/ESM9FG3HNZD6HY5XP7WJYB
+/Game/__ExternalObjects__/_Map/LevelOne/3/N5/IRYDJPCSOE6U2JF22Y8AVZ
+/Game/__ExternalObjects__/_Map/LevelOne/4/TN/250B2J6KLLV2W8LYIJ82KI
+/Game/__ExternalObjects__/_Map/LevelOne/7/Q7/RV0CQAUUEA7Z4NHLFZ9CAM
+/Game/__ExternalObjects__/_Map/LevelOne/9/1K/6LGN3KOG0XKHYHVVYSCY2C
+[2023.12.23-11.24.12:850][493]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.23-11.24.12:851][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/5/HC/TW6LS3G2XEOFUPWU1OI6DA
+[2023.12.23-11.24.12:851][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/TW6LS3G2XEOFUPWU1OI6DAF2742674496D0E15CB0931BAECBF04B6.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/5/HC/TW6LS3G2XEOFUPWU1OI6DA.uasset'
+[2023.12.23-11.24.12:853][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/0/3G/DE0L8LDKZPTLL98V4R8PWR
+[2023.12.23-11.24.12:853][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/DE0L8LDKZPTLL98V4R8PWR94440ABD41E7A75555C56D92605A6973.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/0/3G/DE0L8LDKZPTLL98V4R8PWR.uasset'
+[2023.12.23-11.24.12:854][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/2/LB/Q67GFDX8QC9JSESW38ER78
+[2023.12.23-11.24.12:854][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/Q67GFDX8QC9JSESW38ER78E8D2BC0240C0BDAE3EE921939033D7F9.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/2/LB/Q67GFDX8QC9JSESW38ER78.uasset'
+[2023.12.23-11.24.12:856][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/4/R4/CZOR7FHSY0ST6IPQKCZPAD
+[2023.12.23-11.24.12:856][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/CZOR7FHSY0ST6IPQKCZPADB62E23C049FFAAB6F41049912C69DCCD.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/4/R4/CZOR7FHSY0ST6IPQKCZPAD.uasset'
+[2023.12.23-11.24.12:868][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/6/DH/TDRPYTRIJT3OURXBBH4H5B
+[2023.12.23-11.24.12:868][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/TDRPYTRIJT3OURXBBH4H5BCE3616204033FCE0613F0DB52D3EB925.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/6/DH/TDRPYTRIJT3OURXBBH4H5B.uasset'
+[2023.12.23-11.24.12:870][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/8/RJ/XFHGPUGP5UIZWTVUP0I0ST
+[2023.12.23-11.24.12:870][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/XFHGPUGP5UIZWTVUP0I0ST5B5B013646943B238C80D1BC6DDD49CC.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/8/RJ/XFHGPUGP5UIZWTVUP0I0ST.uasset'
+[2023.12.23-11.24.12:871][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/9/5Q/TYAJGUR373B4YWDR61Q6G3
+[2023.12.23-11.24.12:872][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/TYAJGUR373B4YWDR61Q6G30F7736C74420B933F114F6B4C8951C7D.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/9/5Q/TYAJGUR373B4YWDR61Q6G3.uasset'
+[2023.12.23-11.24.12:873][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/B/4U/QCAG2DPJ59LS7EMG9TT9PL
+[2023.12.23-11.24.12:873][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/QCAG2DPJ59LS7EMG9TT9PL570167C747D262D156546CAD25BAD28C.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/B/4U/QCAG2DPJ59LS7EMG9TT9PL.uasset'
+[2023.12.23-11.24.12:874][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/B/ZP/93LCJTUVZD9U4BV2H341C5
+[2023.12.23-11.24.12:874][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/93LCJTUVZD9U4BV2H341C504F4DEF24921699BCD26318DCF68538A.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/B/ZP/93LCJTUVZD9U4BV2H341C5.uasset'
+[2023.12.23-11.24.12:875][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/D/UW/1Q86DW92KXRHO0LW4Y24NR
+[2023.12.23-11.24.12:875][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/1Q86DW92KXRHO0LW4Y24NR39A879F648DD5287F55E6D807ABD300A.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/D/UW/1Q86DW92KXRHO0LW4Y24NR.uasset'
+[2023.12.23-11.24.12:889][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/2/TH/DS3DAHY27UCSXFFDF5M97O
+[2023.12.23-11.24.12:889][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/DS3DAHY27UCSXFFDF5M97OEFD285B14986C4E80977FF9B5FB20DB4.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/2/TH/DS3DAHY27UCSXFFDF5M97O.uasset'
+[2023.12.23-11.24.12:897][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/E/HV/WBPKWN9BEMFNRBPDFLY08V
+[2023.12.23-11.24.12:897][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/WBPKWN9BEMFNRBPDFLY08V546AB1424BE1DE4EAB7EB79C81C171D0.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/E/HV/WBPKWN9BEMFNRBPDFLY08V.uasset'
+[2023.12.23-11.24.12:907][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/C/UR/L46TQFXYXJN8IJWQFF8OWI
+[2023.12.23-11.24.12:907][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/L46TQFXYXJN8IJWQFF8OWIA24E69814E8C9371E4B4A2A2A54318C7.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/C/UR/L46TQFXYXJN8IJWQFF8OWI.uasset'
+[2023.12.23-11.24.12:916][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/5/34/0710OLCD5KWUOPQOBK9JL3
+[2023.12.23-11.24.12:916][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/0710OLCD5KWUOPQOBK9JL34359E4A441F9B6F3580800AD46914650.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/5/34/0710OLCD5KWUOPQOBK9JL3.uasset'
+[2023.12.23-11.24.12:929][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/6/58/9T9CS6RDR21EJY93S46JYI
+[2023.12.23-11.24.12:930][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/9T9CS6RDR21EJY93S46JYI7CF3124A498B05B3144DC8AA9FCD7127.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/6/58/9T9CS6RDR21EJY93S46JYI.uasset'
+[2023.12.23-11.24.12:938][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/0/CR/ISXMLSSBTL8TD2DVOW4Y4E
+[2023.12.23-11.24.12:938][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/ISXMLSSBTL8TD2DVOW4Y4E8F9CCD0E4EC7E101DC2412BDDE277270.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/0/CR/ISXMLSSBTL8TD2DVOW4Y4E.uasset'
+[2023.12.23-11.24.12:953][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/7/UP/8SZJ053GV5QY4GXI7NY6H8
+[2023.12.23-11.24.12:953][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/8SZJ053GV5QY4GXI7NY6H8890D963746EC4CB3ACC8989B9DE93AD0.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/7/UP/8SZJ053GV5QY4GXI7NY6H8.uasset'
+[2023.12.23-11.24.12:964][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/7/PL/4KS78Y5T2WHV697K9QQHB1
+[2023.12.23-11.24.12:965][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/4KS78Y5T2WHV697K9QQHB125B7813C4570890ABFC861A47DBECC20.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/7/PL/4KS78Y5T2WHV697K9QQHB1.uasset'
+[2023.12.23-11.24.12:975][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/C/26/WINILW9MM4COSZ9GJ8YUP9
+[2023.12.23-11.24.12:975][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/WINILW9MM4COSZ9GJ8YUP963DA3D1241F6B0254CD916A434EF4B5E.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/C/26/WINILW9MM4COSZ9GJ8YUP9.uasset'
+[2023.12.23-11.24.12:987][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/E/VY/Q7VPGGIF3WFW3B17LH7VMD
+[2023.12.23-11.24.12:987][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/Q7VPGGIF3WFW3B17LH7VMD9D59830E42D2859D338A6E9FA02C6799.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/E/VY/Q7VPGGIF3WFW3B17LH7VMD.uasset'
+[2023.12.23-11.24.12:999][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/2/U8/WYUEO9DD2U9C9VMNU6ERRS
+[2023.12.23-11.24.12:999][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/WYUEO9DD2U9C9VMNU6ERRS02332AD849840A0AB03F7A92FA301169.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/2/U8/WYUEO9DD2U9C9VMNU6ERRS.uasset'
+[2023.12.23-11.24.13:011][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/3/SP/KYG51BHZFSWI0WKWL2X9MU
+[2023.12.23-11.24.13:011][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/KYG51BHZFSWI0WKWL2X9MU3B6D90AB4CBDFB0F54EEA3968B20EF2C.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/3/SP/KYG51BHZFSWI0WKWL2X9MU.uasset'
+[2023.12.23-11.24.13:023][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/8/X3/YLCDDNPVRLQBMIN49JEVCW
+[2023.12.23-11.24.13:023][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/YLCDDNPVRLQBMIN49JEVCW0845BB0D4D447AD25CE469A9320297F6.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/8/X3/YLCDDNPVRLQBMIN49JEVCW.uasset'
+[2023.12.23-11.24.13:070][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/1/RW/IB69DDDJ8POA5REMRUSJ0R
+[2023.12.23-11.24.13:070][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/IB69DDDJ8POA5REMRUSJ0REB7882304E21908CD97678BAA67C01F0.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/1/RW/IB69DDDJ8POA5REMRUSJ0R.uasset'
+[2023.12.23-11.24.13:083][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/E/4C/QUKHFQPJ10P5XY6KF6HX1G
+[2023.12.23-11.24.13:083][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/QUKHFQPJ10P5XY6KF6HX1GB2CE5D2F4612CF306982C1992B977630.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/E/4C/QUKHFQPJ10P5XY6KF6HX1G.uasset'
+[2023.12.23-11.24.13:095][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/E/G8/SVEK5MYV42XRXGWLNXQYF1
+[2023.12.23-11.24.13:095][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/SVEK5MYV42XRXGWLNXQYF1F33F0436454618B646278E8A7C26C10E.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/E/G8/SVEK5MYV42XRXGWLNXQYF1.uasset'
+[2023.12.23-11.24.13:107][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/D/YL/YUSKTUJYPU1LONYWYHMT7N
+[2023.12.23-11.24.13:107][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/YUSKTUJYPU1LONYWYHMT7NB8AF173844EA1F04B78BEEADF93FFEDF.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/D/YL/YUSKTUJYPU1LONYWYHMT7N.uasset'
+[2023.12.23-11.24.13:119][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/D/ES/MQ1TP3XF21KVGGSBPO8PDG
+[2023.12.23-11.24.13:119][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/MQ1TP3XF21KVGGSBPO8PDGA8743EB84783B851B2C13095ADBAFE1D.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/D/ES/MQ1TP3XF21KVGGSBPO8PDG.uasset'
+[2023.12.23-11.24.13:132][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/C/RJ/6BIAQ2GLJ8LWLC0YACRUUB
+[2023.12.23-11.24.13:132][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/6BIAQ2GLJ8LWLC0YACRUUB1AD1E31C4C4DAEF26E3F79A91B86CE1B.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/C/RJ/6BIAQ2GLJ8LWLC0YACRUUB.uasset'
+[2023.12.23-11.24.13:146][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/2/P4/UFDW0N17FWA9OQX9TLXGE2
+[2023.12.23-11.24.13:146][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/UFDW0N17FWA9OQX9TLXGE2D09F843B4289621DDDDB81A1FD88742D.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/2/P4/UFDW0N17FWA9OQX9TLXGE2.uasset'
+[2023.12.23-11.24.13:161][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/A/ER/F3DBHCPIAHMO7DP177KDCI
+[2023.12.23-11.24.13:161][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/F3DBHCPIAHMO7DP177KDCI12300BF94419B8E71BEA72909B290294.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/A/ER/F3DBHCPIAHMO7DP177KDCI.uasset'
+[2023.12.23-11.24.13:172][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/6/ZF/AJ48PXMZ011Q3XFTYZRFJ0
+[2023.12.23-11.24.13:172][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/AJ48PXMZ011Q3XFTYZRFJ019CDD1B343B354BBA43D25A07DC2E143.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/6/ZF/AJ48PXMZ011Q3XFTYZRFJ0.uasset'
+[2023.12.23-11.24.13:185][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/D/F7/SDWA9QDAJMZF35M9GAVKV7
+[2023.12.23-11.24.13:185][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/SDWA9QDAJMZF35M9GAVKV7BCCF212E42C00592C39F7B83657A145C.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/D/F7/SDWA9QDAJMZF35M9GAVKV7.uasset'
+[2023.12.23-11.24.13:197][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/3/LO/7X6MF1VQ8E582QXYOFPEKI
+[2023.12.23-11.24.13:197][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/7X6MF1VQ8E582QXYOFPEKI193CEB09486CE8F61568F7BD0FA2D398.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/3/LO/7X6MF1VQ8E582QXYOFPEKI.uasset'
+[2023.12.23-11.24.13:210][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/D/TC/F3EHB9ALYH768UPEKS8LK6
+[2023.12.23-11.24.13:210][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/F3EHB9ALYH768UPEKS8LK6FB322EB44A27741E56F4369CFC574A3E.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/D/TC/F3EHB9ALYH768UPEKS8LK6.uasset'
+[2023.12.23-11.24.13:222][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/2/KZ/QN80WOC700XY81YCB2N6HN
+[2023.12.23-11.24.13:222][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/QN80WOC700XY81YCB2N6HN1DED4BA44A0FD61483C5BABB4F293B06.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/2/KZ/QN80WOC700XY81YCB2N6HN.uasset'
+[2023.12.23-11.24.13:233][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/8/NB/XHKYDV0W7MNYCKX7GD3L0F
+[2023.12.23-11.24.13:233][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/XHKYDV0W7MNYCKX7GD3L0F1C89F63640BD9D70B490278F0D9D40CB.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/8/NB/XHKYDV0W7MNYCKX7GD3L0F.uasset'
+[2023.12.23-11.24.13:247][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/2/TN/V9C5ANYC4BDPFB79CIVDG7
+[2023.12.23-11.24.13:247][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/V9C5ANYC4BDPFB79CIVDG7B6B9C053450408ACF20EF6A21FCAB523.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/2/TN/V9C5ANYC4BDPFB79CIVDG7.uasset'
+[2023.12.23-11.24.13:263][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/7/UD/LLZT5OGURWX7X0L6JQPJ02
+[2023.12.23-11.24.13:263][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/LLZT5OGURWX7X0L6JQPJ029A64F1B04F8E17DA04CC66B4CA51F39D.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/7/UD/LLZT5OGURWX7X0L6JQPJ02.uasset'
+[2023.12.23-11.24.13:278][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/5/JO/EREG1TJA8I6YGPMS73WPFV
+[2023.12.23-11.24.13:278][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/EREG1TJA8I6YGPMS73WPFV92BE1831453DC914FE4214B566AA036B.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/5/JO/EREG1TJA8I6YGPMS73WPFV.uasset'
+[2023.12.23-11.24.13:314][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/C/CQ/WYWQ7WT502A6UUZOAP20T4
+[2023.12.23-11.24.13:314][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/WYWQ7WT502A6UUZOAP20T4EE56204E4F34E04835A7209EEFFE514E.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/C/CQ/WYWQ7WT502A6UUZOAP20T4.uasset'
+[2023.12.23-11.24.13:327][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/2/NF/XPVN9FKO3ZA5CTUZS3WISN
+[2023.12.23-11.24.13:327][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/XPVN9FKO3ZA5CTUZS3WISN74AA5C194BAD1E50E247C5949CCB687E.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/2/NF/XPVN9FKO3ZA5CTUZS3WISN.uasset'
+[2023.12.23-11.24.13:339][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/D/X7/B5U079MIOIBBIZ2DEZ92FX
+[2023.12.23-11.24.13:339][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/B5U079MIOIBBIZ2DEZ92FX0E15C83C46B036308C95E9B4FED09D2A.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/D/X7/B5U079MIOIBBIZ2DEZ92FX.uasset'
+[2023.12.23-11.24.13:351][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/0/EZ/AN70V45VD0V5RCA9XFSKDI
+[2023.12.23-11.24.13:351][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/AN70V45VD0V5RCA9XFSKDICB89ED5E4FA81D2FC8A5FA9ADF4AF5B5.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/0/EZ/AN70V45VD0V5RCA9XFSKDI.uasset'
+[2023.12.23-11.24.13:362][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/7/4F/Q4VFR6YLB69XVEKDW70Q9O
+[2023.12.23-11.24.13:362][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/Q4VFR6YLB69XVEKDW70Q9O6F534F8D4AA8D3BE3032D0BE807827A2.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/7/4F/Q4VFR6YLB69XVEKDW70Q9O.uasset'
+[2023.12.23-11.24.13:375][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/A/74/CPE2WIB8MCCWJNMMMO2THZ
+[2023.12.23-11.24.13:375][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/CPE2WIB8MCCWJNMMMO2THZCB129A124804990AF4C6C9A797C6E5E0.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/A/74/CPE2WIB8MCCWJNMMMO2THZ.uasset'
+[2023.12.23-11.24.13:386][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/0/KG/R66HMPP16PN2H90DRTRMLK
+[2023.12.23-11.24.13:386][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/R66HMPP16PN2H90DRTRMLK5586490B40C98E31C4DF54BC0A4CD73B.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/0/KG/R66HMPP16PN2H90DRTRMLK.uasset'
+[2023.12.23-11.24.13:398][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/C/5W/S0IF652UQA1UZNH5BJIST7
+[2023.12.23-11.24.13:398][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/S0IF652UQA1UZNH5BJIST75AA54F60482F55BB5FA36A9997357F00.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/C/5W/S0IF652UQA1UZNH5BJIST7.uasset'
+[2023.12.23-11.24.13:410][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/A/5R/JF0UG6FOW1NDA8L7I5HD8W
+[2023.12.23-11.24.13:410][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/JF0UG6FOW1NDA8L7I5HD8W19B5CB8D4E9CDC01D5C92D8F217D4156.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/A/5R/JF0UG6FOW1NDA8L7I5HD8W.uasset'
+[2023.12.23-11.24.13:422][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/2/ON/NP3FG9XTG7VP1LDIQKL1EP
+[2023.12.23-11.24.13:422][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/NP3FG9XTG7VP1LDIQKL1EP69D4999C47B6E813EE6F45A838275D53.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/2/ON/NP3FG9XTG7VP1LDIQKL1EP.uasset'
+[2023.12.23-11.24.13:435][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/B/HO/QKB4V5H9K6S4SKFY5SD8DA
+[2023.12.23-11.24.13:435][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/QKB4V5H9K6S4SKFY5SD8DA6448E4494FB3F21F3ED7E88590CF76EC.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/B/HO/QKB4V5H9K6S4SKFY5SD8DA.uasset'
+[2023.12.23-11.24.13:447][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/C/GM/I6K995TIOFLXAGZZUSDQJP
+[2023.12.23-11.24.13:447][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/I6K995TIOFLXAGZZUSDQJP3B19FE4A4717743BD8B9539FAC580A83.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/C/GM/I6K995TIOFLXAGZZUSDQJP.uasset'
+[2023.12.23-11.24.13:460][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/2/70/4DW1T6MOZVAMDOWRHN7XSE
+[2023.12.23-11.24.13:461][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/4DW1T6MOZVAMDOWRHN7XSE8FA77E0649891656E99B9CA561CEF37B.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/2/70/4DW1T6MOZVAMDOWRHN7XSE.uasset'
+[2023.12.23-11.24.13:473][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/8/D0/ULE1PS1VVOM3K22LM2BDB7
+[2023.12.23-11.24.13:473][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/ULE1PS1VVOM3K22LM2BDB7CDB3CF62488A1356715C35933D194163.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/8/D0/ULE1PS1VVOM3K22LM2BDB7.uasset'
+[2023.12.23-11.24.13:486][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/6/0P/SION8TVQGLNTOB5VURT56D
+[2023.12.23-11.24.13:486][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/SION8TVQGLNTOB5VURT56DCC382E134674DC654B3053A0DD2DC261.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/6/0P/SION8TVQGLNTOB5VURT56D.uasset'
+[2023.12.23-11.24.13:501][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/E/XE/2SH4122T9MOGDBEEOPECBY
+[2023.12.23-11.24.13:501][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/2SH4122T9MOGDBEEOPECBYEB04DE874635AB015CBBC1B4410203C6.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/E/XE/2SH4122T9MOGDBEEOPECBY.uasset'
+[2023.12.23-11.24.13:513][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/E/SZ/38EQTBTFITZUS30R69ZJ7G
+[2023.12.23-11.24.13:513][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/38EQTBTFITZUS30R69ZJ7G08278F7040C99681A3F7739BA360701D.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/E/SZ/38EQTBTFITZUS30R69ZJ7G.uasset'
+[2023.12.23-11.24.13:525][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/0/86/VSE481653YCDS9086F3RC7
+[2023.12.23-11.24.13:526][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/VSE481653YCDS9086F3RC709A6D8AC4E9B8A346D17FE91ECE35CFD.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/0/86/VSE481653YCDS9086F3RC7.uasset'
+[2023.12.23-11.24.13:547][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/3/X6/1QEFZEZJSPWXQKF05UOUVC
+[2023.12.23-11.24.13:547][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/1QEFZEZJSPWXQKF05UOUVC9DA7287C40833006CDD3969032CFCADD.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/3/X6/1QEFZEZJSPWXQKF05UOUVC.uasset'
+[2023.12.23-11.24.13:558][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/9/TZ/8HRVRT1F8376HR3JF04QYG
+[2023.12.23-11.24.13:558][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/8HRVRT1F8376HR3JF04QYGB5CA98CD4BA3516E65AE089A03E6F15D.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/9/TZ/8HRVRT1F8376HR3JF04QYG.uasset'
+[2023.12.23-11.24.13:572][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/0/3E/UO336UCZMB8OD7EJMKK1ZG
+[2023.12.23-11.24.13:572][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/UO336UCZMB8OD7EJMKK1ZG91210B87476B26D9B9AA40A98C029884.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/0/3E/UO336UCZMB8OD7EJMKK1ZG.uasset'
+[2023.12.23-11.24.13:587][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/5/LO/BYMVE4YCPH297YJ3WR9CQ9
+[2023.12.23-11.24.13:587][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/BYMVE4YCPH297YJ3WR9CQ96C52B4034CED2FCBDC6A2E94DE5A5D85.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/5/LO/BYMVE4YCPH297YJ3WR9CQ9.uasset'
+[2023.12.23-11.24.13:598][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/3/0L/5BX19LFEFKXGJTQXQXWI8A
+[2023.12.23-11.24.13:598][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/5BX19LFEFKXGJTQXQXWI8A94CF9E134CC8C60092B9B1AD9CD3284D.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/3/0L/5BX19LFEFKXGJTQXQXWI8A.uasset'
+[2023.12.23-11.24.13:613][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/7/8M/Y4JI1N5MLTXACDX08IN6E1
+[2023.12.23-11.24.13:613][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/Y4JI1N5MLTXACDX08IN6E11F3C9E834D667EDC114535BFDD80F151.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/7/8M/Y4JI1N5MLTXACDX08IN6E1.uasset'
+[2023.12.23-11.24.13:625][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/0/O3/XGQY8G459PRFVPBLWIVRG7
+[2023.12.23-11.24.13:625][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/XGQY8G459PRFVPBLWIVRG71E325331412B86B9F6371B9F89294C80.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/0/O3/XGQY8G459PRFVPBLWIVRG7.uasset'
+[2023.12.23-11.24.13:637][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/A/UB/IQRKB7DJ5I35KRVEWGGCVC
+[2023.12.23-11.24.13:637][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/IQRKB7DJ5I35KRVEWGGCVC47E642F9493AD1C741D84EB430974EFB.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/A/UB/IQRKB7DJ5I35KRVEWGGCVC.uasset'
+[2023.12.23-11.24.13:650][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/8/9T/X4X5DUM51LGYOFGOHFCAK8
+[2023.12.23-11.24.13:650][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/X4X5DUM51LGYOFGOHFCAK856B819FE4E86B152168E0E9F71175C3D.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/8/9T/X4X5DUM51LGYOFGOHFCAK8.uasset'
+[2023.12.23-11.24.13:663][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/0/QQ/YZA6Y85NO3MUR1TDW75HN1
+[2023.12.23-11.24.13:663][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/YZA6Y85NO3MUR1TDW75HN11AFD95AC484DB2D294185AA1F05DA2B6.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/0/QQ/YZA6Y85NO3MUR1TDW75HN1.uasset'
+[2023.12.23-11.24.13:676][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/2/Z7/RG5NWHFUNZ0U17670GUKZN
+[2023.12.23-11.24.13:676][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/RG5NWHFUNZ0U17670GUKZN8F2707BB47482C9FDB2082A0FDCC2E79.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/2/Z7/RG5NWHFUNZ0U17670GUKZN.uasset'
+[2023.12.23-11.24.13:687][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/A/KP/MBZW2USFFDMPI2JS0ZBBWV
+[2023.12.23-11.24.13:687][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/MBZW2USFFDMPI2JS0ZBBWVECCBE66B4EA3DF5C5F60478C337949F8.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/A/KP/MBZW2USFFDMPI2JS0ZBBWV.uasset'
+[2023.12.23-11.24.13:699][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/A/QA/1879ONGM9088PLCS5JJMX6
+[2023.12.23-11.24.13:699][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/1879ONGM9088PLCS5JJMX6C86FA10A45E8BFA21F4BB09A0E100911.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/A/QA/1879ONGM9088PLCS5JJMX6.uasset'
+[2023.12.23-11.24.13:712][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/E/L8/QPGKPECAQTJK5I6R6HF6I2
+[2023.12.23-11.24.13:712][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/QPGKPECAQTJK5I6R6HF6I265CCCDE8484AD00B06355F924B9DBD86.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/E/L8/QPGKPECAQTJK5I6R6HF6I2.uasset'
+[2023.12.23-11.24.13:723][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/D/DO/GN8IEEBSDUS13TLH2SK2XU
+[2023.12.23-11.24.13:723][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/GN8IEEBSDUS13TLH2SK2XU8FC5F70742686435C35D07BCA37E46B2.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/D/DO/GN8IEEBSDUS13TLH2SK2XU.uasset'
+[2023.12.23-11.24.13:735][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/D/LR/4WKR4ZSWU983ZUYTQOO9ZM
+[2023.12.23-11.24.13:735][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/4WKR4ZSWU983ZUYTQOO9ZM4432361A47DF6A6013C705B8786E708C.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/D/LR/4WKR4ZSWU983ZUYTQOO9ZM.uasset'
+[2023.12.23-11.24.13:739][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/0/W8/UDZNF0MKJ2K58CHX14CNQB
+[2023.12.23-11.24.13:739][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/UDZNF0MKJ2K58CHX14CNQB97B21FA047DD73C2E45C7BA3DB52BA67.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/0/W8/UDZNF0MKJ2K58CHX14CNQB.uasset'
+[2023.12.23-11.24.13:743][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/0/XN/OKU94P209EXBINBYEFXY4Y
+[2023.12.23-11.24.13:743][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/OKU94P209EXBINBYEFXY4YF2FE5CC04DF53A3373F209BA6D69526F.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/0/XN/OKU94P209EXBINBYEFXY4Y.uasset'
+[2023.12.23-11.24.13:765][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/1/BC/O3L42TB1CKYFQTN9CTBMN3
+[2023.12.23-11.24.13:765][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/O3L42TB1CKYFQTN9CTBMN350FB093047531928CCE83B9EB7A27BA7.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/1/BC/O3L42TB1CKYFQTN9CTBMN3.uasset'
+[2023.12.23-11.24.13:769][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/1/EP/NLCBGZMY3MGR06260XUUDJ
+[2023.12.23-11.24.13:769][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/NLCBGZMY3MGR06260XUUDJ8481A34B4AD5DC0E521729A0A28DD39A.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/1/EP/NLCBGZMY3MGR06260XUUDJ.uasset'
+[2023.12.23-11.24.13:773][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/2/JV/PT3Q13K6630Y58KWQ530E0
+[2023.12.23-11.24.13:773][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/PT3Q13K6630Y58KWQ530E0ABED4BF54E2C647A1AC658BD67C3BA2B.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/2/JV/PT3Q13K6630Y58KWQ530E0.uasset'
+[2023.12.23-11.24.13:776][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/2/PO/KSC0DY8ET11R1MHH1WBQOR
+[2023.12.23-11.24.13:776][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/KSC0DY8ET11R1MHH1WBQOR3A0EF37347AA5EDD798C029EBC8050EF.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/2/PO/KSC0DY8ET11R1MHH1WBQOR.uasset'
+[2023.12.23-11.24.13:780][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/2/R2/RQ4P4HZHGB6N1DRB2JLTZZ
+[2023.12.23-11.24.13:780][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/RQ4P4HZHGB6N1DRB2JLTZZ698392274670440693BFF3BFE820A81E.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/2/R2/RQ4P4HZHGB6N1DRB2JLTZZ.uasset'
+[2023.12.23-11.24.13:784][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/3/25/MLV7K4OOGTK8QY74OR23F9
+[2023.12.23-11.24.13:784][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/MLV7K4OOGTK8QY74OR23F910F4C94044011A90D9CC52BEE45D1944.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/3/25/MLV7K4OOGTK8QY74OR23F9.uasset'
+[2023.12.23-11.24.13:789][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/3/CV/H6OWPLYFUGX3GQPAWSC2OA
+[2023.12.23-11.24.13:789][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/H6OWPLYFUGX3GQPAWSC2OAEDEEEAE44161180DEBBF1A89CCC22CC2.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/3/CV/H6OWPLYFUGX3GQPAWSC2OA.uasset'
+[2023.12.23-11.24.13:793][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/3/K0/C79R9MOCU8RNT6S6VF957M
+[2023.12.23-11.24.13:793][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/C79R9MOCU8RNT6S6VF957M44A26799425DC37DC3AEB582CED718A4.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/3/K0/C79R9MOCU8RNT6S6VF957M.uasset'
+[2023.12.23-11.24.13:796][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/3/QA/XIKCVMIDVTW8KZAGZ92GG5
+[2023.12.23-11.24.13:796][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/XIKCVMIDVTW8KZAGZ92GG5A1A2B8EB4D76548CC623ADB50CEFE894.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/3/QA/XIKCVMIDVTW8KZAGZ92GG5.uasset'
+[2023.12.23-11.24.13:800][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/3/SZ/6N9VGTGSB7DRVTCIR67NUT
+[2023.12.23-11.24.13:800][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/6N9VGTGSB7DRVTCIR67NUT46F14BB14F5AA0FE79597CA7ED8A274D.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/3/SZ/6N9VGTGSB7DRVTCIR67NUT.uasset'
+[2023.12.23-11.24.13:805][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/3/T0/U0B8BG4UL89UOQNV8CQWGS
+[2023.12.23-11.24.13:805][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/U0B8BG4UL89UOQNV8CQWGSF2EFD79F40B5416BB99B88B55555047F.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/3/T0/U0B8BG4UL89UOQNV8CQWGS.uasset'
+[2023.12.23-11.24.13:810][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/4/9A/4FJGZVF13SAY9O0P9RPTJQ
+[2023.12.23-11.24.13:810][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/4FJGZVF13SAY9O0P9RPTJQCF67524848EB341A0DDD6A827C940775.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/4/9A/4FJGZVF13SAY9O0P9RPTJQ.uasset'
+[2023.12.23-11.24.13:814][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/4/CX/2UHCGDT7LWL48R3S5YA6NC
+[2023.12.23-11.24.13:814][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/2UHCGDT7LWL48R3S5YA6NC02AE98394831CC69557EA0B10BD93E28.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/4/CX/2UHCGDT7LWL48R3S5YA6NC.uasset'
+[2023.12.23-11.24.13:819][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/4/HB/4ZW0DF6NEL3DAXIZY8AYT8
+[2023.12.23-11.24.13:819][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/4ZW0DF6NEL3DAXIZY8AYT8DD48C1EB46A296F8B52A24BE1578BF7A.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/4/HB/4ZW0DF6NEL3DAXIZY8AYT8.uasset'
+[2023.12.23-11.24.13:823][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/5/VR/M3V8RW7RIZC8HVIA18FCHV
+[2023.12.23-11.24.13:823][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/M3V8RW7RIZC8HVIA18FCHV3EFB234144423D7D7DDDC087B0E7A9CB.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/5/VR/M3V8RW7RIZC8HVIA18FCHV.uasset'
+[2023.12.23-11.24.13:826][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/6/3N/P61ET7JVLOUJ6XPINN51KJ
+[2023.12.23-11.24.13:826][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/P61ET7JVLOUJ6XPINN51KJ318C9701497286987804D9A79D809E20.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/6/3N/P61ET7JVLOUJ6XPINN51KJ.uasset'
+[2023.12.23-11.24.13:830][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/6/FR/C8IAIK9WC7X5Q9907TYA78
+[2023.12.23-11.24.13:830][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/C8IAIK9WC7X5Q9907TYA78FCC52EE6418CF56E03C1D19DD79754CD.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/6/FR/C8IAIK9WC7X5Q9907TYA78.uasset'
+[2023.12.23-11.24.13:835][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/6/GD/X2PSWPJKKY6LHYYAVLKMW4
+[2023.12.23-11.24.13:835][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/X2PSWPJKKY6LHYYAVLKMW444C64CE64A87D44F5C6034BA552CC1F6.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/6/GD/X2PSWPJKKY6LHYYAVLKMW4.uasset'
+[2023.12.23-11.24.13:839][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/6/HA/Y0SVA641B3R8TK0YDASILC
+[2023.12.23-11.24.13:839][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/Y0SVA641B3R8TK0YDASILC655E0459470E6584DF9AAFB463CFD3F5.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/6/HA/Y0SVA641B3R8TK0YDASILC.uasset'
+[2023.12.23-11.24.13:844][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/7/2V/2A5N2RCCYBRQHYFKD8QDTX
+[2023.12.23-11.24.13:844][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/2A5N2RCCYBRQHYFKD8QDTX14F5B23A446B1C149904FBACFB1474A5.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/7/2V/2A5N2RCCYBRQHYFKD8QDTX.uasset'
+[2023.12.23-11.24.13:848][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/7/6T/A87JBMMSUB31IY4LOFX2IM
+[2023.12.23-11.24.13:848][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/A87JBMMSUB31IY4LOFX2IM33D78FDB47CD83BD813152AE3BC21C0C.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/7/6T/A87JBMMSUB31IY4LOFX2IM.uasset'
+[2023.12.23-11.24.13:852][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/7/HI/ATOW8OHD0YJ1M2A13PJW5W
+[2023.12.23-11.24.13:852][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/ATOW8OHD0YJ1M2A13PJW5W1281B9D540CCC51B4933ACA9AC925394.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/7/HI/ATOW8OHD0YJ1M2A13PJW5W.uasset'
+[2023.12.23-11.24.13:855][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/7/OU/L9Q30T3N7SQYV0HDRA6ZX5
+[2023.12.23-11.24.13:855][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/L9Q30T3N7SQYV0HDRA6ZX590468E954DE709E4A2FAFABD856D0E03.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/7/OU/L9Q30T3N7SQYV0HDRA6ZX5.uasset'
+[2023.12.23-11.24.13:862][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/7/WQ/N8X3IKA5AIAVWB2SEYXSA0
+[2023.12.23-11.24.13:862][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/N8X3IKA5AIAVWB2SEYXSA0D65EAB26494AE54E14F3A5B01E50C633.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/7/WQ/N8X3IKA5AIAVWB2SEYXSA0.uasset'
+[2023.12.23-11.24.13:868][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/8/8D/74M4WWZHR7VB4UXENLQ8ER
+[2023.12.23-11.24.13:868][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/74M4WWZHR7VB4UXENLQ8ER7DE9A55F4D170B00216C45A822C100AF.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/8/8D/74M4WWZHR7VB4UXENLQ8ER.uasset'
+[2023.12.23-11.24.13:871][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/8/QM/H2Q8S7JSD1HX86SB8U6AVT
+[2023.12.23-11.24.13:871][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/H2Q8S7JSD1HX86SB8U6AVT5821CEBE49AF4F8960F10BB5BF6D4DB6.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/8/QM/H2Q8S7JSD1HX86SB8U6AVT.uasset'
+[2023.12.23-11.24.13:875][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/8/RV/BRWWVB9Q9UHPEZZEZ97KKG
+[2023.12.23-11.24.13:875][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/BRWWVB9Q9UHPEZZEZ97KKG75484CDC48C0A17F9C2FF9AA657BE715.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/8/RV/BRWWVB9Q9UHPEZZEZ97KKG.uasset'
+[2023.12.23-11.24.13:880][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/9/C0/2H881W7KH5A40LKSCX8X9T
+[2023.12.23-11.24.13:880][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/2H881W7KH5A40LKSCX8X9T4822FDC44611A9D45C67EE93240F6AA0.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/9/C0/2H881W7KH5A40LKSCX8X9T.uasset'
+[2023.12.23-11.24.13:884][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/9/LQ/VW0FWXVUZTOQ8DWEO9M8QQ
+[2023.12.23-11.24.13:884][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/VW0FWXVUZTOQ8DWEO9M8QQECB145D349BDC832798F95AABF641228.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/9/LQ/VW0FWXVUZTOQ8DWEO9M8QQ.uasset'
+[2023.12.23-11.24.13:887][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/9/Q6/59DVGEIUGUNIBRNA3C2Q7T
+[2023.12.23-11.24.13:887][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/59DVGEIUGUNIBRNA3C2Q7TDD0433F943A6324BF91E7CAA0F1510A6.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/9/Q6/59DVGEIUGUNIBRNA3C2Q7T.uasset'
+[2023.12.23-11.24.13:891][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/A/0K/UXJFMMIFKBKHN6NSIRH2KU
+[2023.12.23-11.24.13:891][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/UXJFMMIFKBKHN6NSIRH2KUDC9D623F494EB8B7275313863CEC7628.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/A/0K/UXJFMMIFKBKHN6NSIRH2KU.uasset'
+[2023.12.23-11.24.13:895][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/B/1W/OXKLABPUA26VJBCKWFL6O3
+[2023.12.23-11.24.13:895][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/OXKLABPUA26VJBCKWFL6O390E24AE1416552110ED854AE4A6F379E.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/B/1W/OXKLABPUA26VJBCKWFL6O3.uasset'
+[2023.12.23-11.24.13:898][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/B/NK/TL71X5T8M13HI2IF7JMFMB
+[2023.12.23-11.24.13:898][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/TL71X5T8M13HI2IF7JMFMBFA3AD74246641B9B6C2E3C8D613704DF.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/B/NK/TL71X5T8M13HI2IF7JMFMB.uasset'
+[2023.12.23-11.24.13:903][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/B/YS/BYC8A9YKX9RFDG0I34Y7HD
+[2023.12.23-11.24.13:903][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/BYC8A9YKX9RFDG0I34Y7HD4D0651D04D91893B7B5E77912F16DF57.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/B/YS/BYC8A9YKX9RFDG0I34Y7HD.uasset'
+[2023.12.23-11.24.13:907][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/C/G6/HS7Z6SNUV77XGI8EWSQPUK
+[2023.12.23-11.24.13:907][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/HS7Z6SNUV77XGI8EWSQPUKB6F3471949EAA8F8371ADE9BC1CBC3E1.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/C/G6/HS7Z6SNUV77XGI8EWSQPUK.uasset'
+[2023.12.23-11.24.13:911][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/C/IX/ODCBN0F1XIGRZHU0RQNIFR
+[2023.12.23-11.24.13:911][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/ODCBN0F1XIGRZHU0RQNIFR4486CCE746A756F7095259871DCA7A72.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/C/IX/ODCBN0F1XIGRZHU0RQNIFR.uasset'
+[2023.12.23-11.24.13:915][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/C/J4/70DP0NRONWMQ3HPAFME4L7
+[2023.12.23-11.24.13:915][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/70DP0NRONWMQ3HPAFME4L775BCFEE948D203792ED3E1985AE26B99.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/C/J4/70DP0NRONWMQ3HPAFME4L7.uasset'
+[2023.12.23-11.24.13:918][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/D/GG/6BQVB4F2G85C1MGFA1V6A1
+[2023.12.23-11.24.13:918][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/6BQVB4F2G85C1MGFA1V6A10C0B05D0427CDC8C85B633BB25CBF007.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/D/GG/6BQVB4F2G85C1MGFA1V6A1.uasset'
+[2023.12.23-11.24.13:924][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/D/SI/4O1D3MNPGH6ON6W4V8LK76
+[2023.12.23-11.24.13:924][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/4O1D3MNPGH6ON6W4V8LK76862369234190A2F96D818CA339026EC3.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/D/SI/4O1D3MNPGH6ON6W4V8LK76.uasset'
+[2023.12.23-11.24.13:927][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/D/XC/4XGAO7Y060ODH81KH2N8SQ
+[2023.12.23-11.24.13:927][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/4XGAO7Y060ODH81KH2N8SQ30C995494A2C0DBCBCBB0595D9D6B007.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/D/XC/4XGAO7Y060ODH81KH2N8SQ.uasset'
+[2023.12.23-11.24.13:931][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/E/6Q/95QIE809G6K6XFXWXCBV6X
+[2023.12.23-11.24.13:931][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/95QIE809G6K6XFXWXCBV6X7BDB5E0241967DF42E3D81BF289ACF4D.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/E/6Q/95QIE809G6K6XFXWXCBV6X.uasset'
+[2023.12.23-11.24.13:938][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/E/H5/IFKM5V5KCOHNUNOWM82LO8
+[2023.12.23-11.24.13:938][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/IFKM5V5KCOHNUNOWM82LO8FC4FF1074AFACE1798027EA0EADCA7A4.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/E/H5/IFKM5V5KCOHNUNOWM82LO8.uasset'
+[2023.12.23-11.24.13:943][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/E/JJ/90MXUKZQWAR5BOA1LHW6T6
+[2023.12.23-11.24.13:943][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/90MXUKZQWAR5BOA1LHW6T6DBE8DE144C53DCB285887D94960225CB.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/E/JJ/90MXUKZQWAR5BOA1LHW6T6.uasset'
+[2023.12.23-11.24.13:947][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/E/MR/1NYDIIHYDD7MWY35FY0YF6
+[2023.12.23-11.24.13:947][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/1NYDIIHYDD7MWY35FY0YF61406D2D74D8EB30C01847FB66F1692B9.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/E/MR/1NYDIIHYDD7MWY35FY0YF6.uasset'
+[2023.12.23-11.24.13:951][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/E/RU/5X223DW0PESJNOC1HJ97Q8
+[2023.12.23-11.24.13:951][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/5X223DW0PESJNOC1HJ97Q882E8F3204996F6CCEC9D5EAA12F89434.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/E/RU/5X223DW0PESJNOC1HJ97Q8.uasset'
+[2023.12.23-11.24.13:954][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/E/X3/17TSFBDFDP17COWT2P0GQW
+[2023.12.23-11.24.13:954][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/17TSFBDFDP17COWT2P0GQWC759451D43C36C4A581E3E98CF951DA5.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/E/X3/17TSFBDFDP17COWT2P0GQW.uasset'
+[2023.12.23-11.24.13:961][493]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/F/0L/RTB429GP23MOK5XUYWBY42
+[2023.12.23-11.24.13:961][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/RTB429GP23MOK5XUYWBY421FE00FBE47CAEB4E85293D94B1883920.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/F/0L/RTB429GP23MOK5XUYWBY42.uasset'
+[2023.12.23-11.24.13:963][493]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/_Map/LevelOne/2/J9/KYPJ2FB2S2TXSDSWOTOVHQ
+[2023.12.23-11.24.13:963][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/KYPJ2FB2S2TXSDSWOTOVHQBA4DD232434F46105C5BFE83C9AAD2B7.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalObjects__/_Map/LevelOne/2/J9/KYPJ2FB2S2TXSDSWOTOVHQ.uasset'
+[2023.12.23-11.24.13:963][493]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/_Map/LevelOne/3/7Y/ESM9FG3HNZD6HY5XP7WJYB
+[2023.12.23-11.24.13:963][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/ESM9FG3HNZD6HY5XP7WJYB16AC87E04F1751E1CB79C4971AEB7EF4.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalObjects__/_Map/LevelOne/3/7Y/ESM9FG3HNZD6HY5XP7WJYB.uasset'
+[2023.12.23-11.24.13:966][493]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/_Map/LevelOne/3/N5/IRYDJPCSOE6U2JF22Y8AVZ
+[2023.12.23-11.24.13:966][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/IRYDJPCSOE6U2JF22Y8AVZAD769D6B4760D448E133EE8E65469235.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalObjects__/_Map/LevelOne/3/N5/IRYDJPCSOE6U2JF22Y8AVZ.uasset'
+[2023.12.23-11.24.13:967][493]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/_Map/LevelOne/4/TN/250B2J6KLLV2W8LYIJ82KI
+[2023.12.23-11.24.13:967][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/250B2J6KLLV2W8LYIJ82KIBA06A9AF4BCA469F6D773293FD775BB3.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalObjects__/_Map/LevelOne/4/TN/250B2J6KLLV2W8LYIJ82KI.uasset'
+[2023.12.23-11.24.14:012][493]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/_Map/LevelOne/7/Q7/RV0CQAUUEA7Z4NHLFZ9CAM
+[2023.12.23-11.24.14:012][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/RV0CQAUUEA7Z4NHLFZ9CAM2B5D5B48489461B668B97AA47ACAD039.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalObjects__/_Map/LevelOne/7/Q7/RV0CQAUUEA7Z4NHLFZ9CAM.uasset'
+[2023.12.23-11.24.14:013][493]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/_Map/LevelOne/9/1K/6LGN3KOG0XKHYHVVYSCY2C
+[2023.12.23-11.24.14:013][493]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/6LGN3KOG0XKHYHVVYSCY2CCFCB0E1E4B4D027CAFDBC4ABE6C3F313.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalObjects__/_Map/LevelOne/9/1K/6LGN3KOG0XKHYHVVYSCY2C.uasset'
+[2023.12.23-11.24.14:013][493]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.16 sec (total: 1.75 sec)
+[2023.12.23-11.24.14:015][493]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/__ExternalActors__/_Map/LevelOne/5/HC/TW6LS3G2XEOFUPWU1OI6DA
+/Game/__ExternalActors__/_Map/LevelOne/0/3G/DE0L8LDKZPTLL98V4R8PWR
+/Game/__ExternalActors__/_Map/LevelOne/2/LB/Q67GFDX8QC9JSESW38ER78
+/Game/__ExternalActors__/_Map/LevelOne/4/R4/CZOR7FHSY0ST6IPQKCZPAD
+/Game/__ExternalActors__/_Map/LevelOne/6/DH/TDRPYTRIJT3OURXBBH4H5B
+/Game/__ExternalActors__/_Map/LevelOne/8/RJ/XFHGPUGP5UIZWTVUP0I0ST
+/Game/__ExternalActors__/_Map/LevelOne/9/5Q/TYAJGUR373B4YWDR61Q6G3
+/Game/__ExternalActors__/_Map/LevelOne/B/4U/QCAG2DPJ59LS7EMG9TT9PL
+/Game/__ExternalActors__/_Map/LevelOne/B/ZP/93LCJTUVZD9U4BV2H341C5
+/Game/__ExternalActors__/_Map/LevelOne/D/UW/1Q86DW92KXRHO0LW4Y24NR
+/Game/__ExternalActors__/_Map/LevelOne/2/TH/DS3DAHY27UCSXFFDF5M97O
+/Game/__ExternalActors__/_Map/LevelOne/E/HV/WBPKWN9BEMFNRBPDFLY08V
+/Game/__ExternalActors__/_Map/LevelOne/C/UR/L46TQFXYXJN8IJWQFF8OWI
+/Game/__ExternalActors__/_Map/LevelOne/5/34/0710OLCD5KWUOPQOBK9JL3
+/Game/__ExternalActors__/_Map/LevelOne/6/58/9T9CS6RDR21EJY93S46JYI
+/Game/__ExternalActors__/_Map/LevelOne/0/CR/ISXMLSSBTL8TD2DVOW4Y4E
+/Game/__ExternalActors__/_Map/LevelOne/7/UP/8SZJ053GV5QY4GXI7NY6H8
+/Game/__ExternalActors__/_Map/LevelOne/7/PL/4KS78Y5T2WHV697K9QQHB1
+/Game/__ExternalActors__/_Map/LevelOne/C/26/WINILW9MM4COSZ9GJ8YUP9
+/Game/__ExternalActors__/_Map/LevelOne/E/VY/Q7VPGGIF3WFW3B17LH7VMD
+/Game/__ExternalActors__/_Map/LevelOne/2/U8/WYUEO9DD2U9C9VMNU6ERRS
+/Game/__ExternalActors__/_Map/LevelOne/3/SP/KYG51BHZFSWI0WKWL2X9MU
+/Game/__ExternalActors__/_Map/LevelOne/8/X3/YLCDDNPVRLQBMIN49JEVCW
+/Game/__ExternalActors__/_Map/LevelOne/1/RW/IB69DDDJ8POA5REMRUSJ0R
+/Game/__ExternalActors__/_Map/LevelOne/E/4C/QUKHFQPJ10P5XY6KF6HX1G
+/Game/__ExternalActors__/_Map/LevelOne/E/G8/SVEK5MYV42XRXGWLNXQYF1
+/Game/__ExternalActors__/_Map/LevelOne/D/YL/YUSKTUJYPU1LONYWYHMT7N
+/Game/__ExternalActors__/_Map/LevelOne/D/ES/MQ1TP3XF21KVGGSBPO8PDG
+/Game/__ExternalActors__/_Map/LevelOne/C/RJ/6BIAQ2GLJ8LWLC0YACRUUB
+/Game/__ExternalActors__/_Map/LevelOne/2/P4/UFDW0N17FWA9OQX9TLXGE2
+/Game/__ExternalActors__/_Map/LevelOne/A/ER/F3DBHCPIAHMO7DP177KDCI
+/Game/__ExternalActors__/_Map/LevelOne/6/ZF/AJ48PXMZ011Q3XFTYZRFJ0
+/Game/__ExternalActors__/_Map/LevelOne/D/F7/SDWA9QDAJMZF35M9GAVKV7
+/Game/__ExternalActors__/_Map/LevelOne/3/LO/7X6MF1VQ8E582QXYOFPEKI
+/Game/__ExternalActors__/_Map/LevelOne/D/TC/F3EHB9ALYH768UPEKS8LK6
+/Game/__ExternalActors__/_Map/LevelOne/2/KZ/QN80WOC700XY81YCB2N6HN
+/Game/__ExternalActors__/_Map/LevelOne/8/NB/XHKYDV0W7MNYCKX7GD3L0F
+/Game/__ExternalActors__/_Map/LevelOne/2/TN/V9C5ANYC4BDPFB79CIVDG7
+/Game/__ExternalActors__/_Map/LevelOne/7/UD/LLZT5OGURWX7X0L6JQPJ02
+/Game/__ExternalActors__/_Map/LevelOne/5/JO/EREG1TJA8I6YGPMS73WPFV
+/Game/__ExternalActors__/_Map/LevelOne/C/CQ/WYWQ7WT502A6UUZOAP20T4
+/Game/__ExternalActors__/_Map/LevelOne/2/NF/XPVN9FKO3ZA5CTUZS3WISN
+/Game/__ExternalActors__/_Map/LevelOne/D/X7/B5U079MIOIBBIZ2DEZ92FX
+/Game/__ExternalActors__/_Map/LevelOne/0/EZ/AN70V45VD0V5RCA9XFSKDI
+/Game/__ExternalActors__/_Map/LevelOne/7/4F/Q4VFR6YLB69XVEKDW70Q9O
+/Game/__ExternalActors__/_Map/LevelOne/A/74/CPE2WIB8MCCWJNMMMO2THZ
+/Game/__ExternalActors__/_Map/LevelOne/0/KG/R66HMPP16PN2H90DRTRMLK
+/Game/__ExternalActors__/_Map/LevelOne/C/5W/S0IF652UQA1UZNH5BJIST7
+/Game/__ExternalActors__/_Map/LevelOne/A/5R/JF0UG6FOW1NDA8L7I5HD8W
+/Game/__ExternalActors__/_Map/LevelOne/2/ON/NP3FG9XTG7VP1LDIQKL1EP
+/Game/__ExternalActors__/_Map/LevelOne/B/HO/QKB4V5H9K6S4SKFY5SD8DA
+/Game/__ExternalActors__/_Map/LevelOne/C/GM/I6K995TIOFLXAGZZUSDQJP
+/Game/__ExternalActors__/_Map/LevelOne/2/70/4DW1T6MOZVAMDOWRHN7XSE
+/Game/__ExternalActors__/_Map/LevelOne/8/D0/ULE1PS1VVOM3K22LM2BDB7
+/Game/__ExternalActors__/_Map/LevelOne/6/0P/SION8TVQGLNTOB5VURT56D
+/Game/__ExternalActors__/_Map/LevelOne/E/XE/2SH4122T9MOGDBEEOPECBY
+/Game/__ExternalActors__/_Map/LevelOne/E/SZ/38EQTBTFITZUS30R69ZJ7G
+/Game/__ExternalActors__/_Map/LevelOne/0/86/VSE481653YCDS9086F3RC7
+/Game/__ExternalActors__/_Map/LevelOne/3/X6/1QEFZEZJSPWXQKF05UOUVC
+/Game/__ExternalActors__/_Map/LevelOne/9/TZ/8HRVRT1F8376HR3JF04QYG
+/Game/__ExternalActors__/_Map/LevelOne/0/3E/UO336UCZMB8OD7EJMKK1ZG
+/Game/__ExternalActors__/_Map/LevelOne/5/LO/BYMVE4YCPH297YJ3WR9CQ9
+/Game/__ExternalActors__/_Map/LevelOne/3/0L/5BX19LFEFKXGJTQXQXWI8A
+/Game/__ExternalActors__/_Map/LevelOne/7/8M/Y4JI1N5MLTXACDX08IN6E1
+/Game/__ExternalActors__/_Map/LevelOne/0/O3/XGQY8G459PRFVPBLWIVRG7
+/Game/__ExternalActors__/_Map/LevelOne/A/UB/IQRKB7DJ5I35KRVEWGGCVC
+/Game/__ExternalActors__/_Map/LevelOne/8/9T/X4X5DUM51LGYOFGOHFCAK8
+/Game/__ExternalActors__/_Map/LevelOne/0/QQ/YZA6Y85NO3MUR1TDW75HN1
+/Game/__ExternalActors__/_Map/LevelOne/2/Z7/RG5NWHFUNZ0U17670GUKZN
+/Game/__ExternalActors__/_Map/LevelOne/A/KP/MBZW2USFFDMPI2JS0ZBBWV
+/Game/__ExternalActors__/_Map/LevelOne/A/QA/1879ONGM9088PLCS5JJMX6
+/Game/__ExternalActors__/_Map/LevelOne/E/L8/QPGKPECAQTJK5I6R6HF6I2
+/Game/__ExternalActors__/_Map/LevelOne/D/DO/GN8IEEBSDUS13TLH2SK2XU
+/Game/__ExternalActors__/_Map/LevelOne/D/LR/4WKR4ZSWU983ZUYTQOO9ZM
+/Game/__ExternalActors__/_Map/LevelOne/0/W8/UDZNF0MKJ2K58CHX14CNQB
+/Game/__ExternalActors__/_Map/LevelOne/0/XN/OKU94P209EXBINBYEFXY4Y
+/Game/__ExternalActors__/_Map/LevelOne/1/BC/O3L42TB1CKYFQTN9CTBMN3
+/Game/__ExternalActors__/_Map/LevelOne/1/EP/NLCBGZMY3MGR06260XUUDJ
+/Game/__ExternalActors__/_Map/LevelOne/2/JV/PT3Q13K6630Y58KWQ530E0
+/Game/__ExternalActors__/_Map/LevelOne/2/PO/KSC0DY8ET11R1MHH1WBQOR
+/Game/__ExternalActors__/_Map/LevelOne/2/R2/RQ4P4HZHGB6N1DRB2JLTZZ
+/Game/__ExternalActors__/_Map/LevelOne/3/25/MLV7K4OOGTK8QY74OR23F9
+/Game/__ExternalActors__/_Map/LevelOne/3/CV/H6OWPLYFUGX3GQPAWSC2OA
+/Game/__ExternalActors__/_Map/LevelOne/3/K0/C79R9MOCU8RNT6S6VF957M
+/Game/__ExternalActors__/_Map/LevelOne/3/QA/XIKCVMIDVTW8KZAGZ92GG5
+/Game/__ExternalActors__/_Map/LevelOne/3/SZ/6N9VGTGSB7DRVTCIR67NUT
+/Game/__ExternalActors__/_Map/LevelOne/3/T0/U0B8BG4UL89UOQNV8CQWGS
+/Game/__ExternalActors__/_Map/LevelOne/4/9A/4FJGZVF13SAY9O0P9RPTJQ
+/Game/__ExternalActors__/_Map/LevelOne/4/CX/2UHCGDT7LWL48R3S5YA6NC
+/Game/__ExternalActors__/_Map/LevelOne/4/HB/4ZW0DF6NEL3DAXIZY8AYT8
+/Game/__ExternalActors__/_Map/LevelOne/5/VR/M3V8RW7RIZC8HVIA18FCHV
+/Game/__ExternalActors__/_Map/LevelOne/6/3N/P61ET7JVLOUJ6XPINN51KJ
+/Game/__ExternalActors__/_Map/LevelOne/6/FR/C8IAIK9WC7X5Q9907TYA78
+/Game/__ExternalActors__/_Map/LevelOne/6/GD/X2PSWPJKKY6LHYYAVLKMW4
+/Game/__ExternalActors__/_Map/LevelOne/6/HA/Y0SVA641B3R8TK0YDASILC
+/Game/__ExternalActors__/_Map/LevelOne/7/2V/2A5N2RCCYBRQHYFKD8QDTX
+/Game/__ExternalActors__/_Map/LevelOne/7/6T/A87JBMMSUB31IY4LOFX2IM
+/Game/__ExternalActors__/_Map/LevelOne/7/HI/ATOW8OHD0YJ1M2A13PJW5W
+/Game/__ExternalActors__/_Map/LevelOne/7/OU/L9Q30T3N7SQYV0HDRA6ZX5
+/Game/__ExternalActors__/_Map/LevelOne/7/WQ/N8X3IKA5AIAVWB2SEYXSA0
+/Game/__ExternalActors__/_Map/LevelOne/8/8D/74M4WWZHR7VB4UXENLQ8ER
+/Game/__ExternalActors__/_Map/LevelOne/8/QM/H2Q8S7JSD1HX86SB8U6AVT
+/Game/__ExternalActors__/_Map/LevelOne/8/RV/BRWWVB9Q9UHPEZZEZ97KKG
+/Game/__ExternalActors__/_Map/LevelOne/9/C0/2H881W7KH5A40LKSCX8X9T
+/Game/__ExternalActors__/_Map/LevelOne/9/LQ/VW0FWXVUZTOQ8DWEO9M8QQ
+/Game/__ExternalActors__/_Map/LevelOne/9/Q6/59DVGEIUGUNIBRNA3C2Q7T
+/Game/__ExternalActors__/_Map/LevelOne/A/0K/UXJFMMIFKBKHN6NSIRH2KU
+/Game/__ExternalActors__/_Map/LevelOne/B/1W/OXKLABPUA26VJBCKWFL6O3
+/Game/__ExternalActors__/_Map/LevelOne/B/NK/TL71X5T8M13HI2IF7JMFMB
+/Game/__ExternalActors__/_Map/LevelOne/B/YS/BYC8A9YKX9RFDG0I34Y7HD
+/Game/__ExternalActors__/_Map/LevelOne/C/G6/HS7Z6SNUV77XGI8EWSQPUK
+/Game/__ExternalActors__/_Map/LevelOne/C/IX/ODCBN0F1XIGRZHU0RQNIFR
+/Game/__ExternalActors__/_Map/LevelOne/C/J4/70DP0NRONWMQ3HPAFME4L7
+/Game/__ExternalActors__/_Map/LevelOne/D/GG/6BQVB4F2G85C1MGFA1V6A1
+/Game/__ExternalActors__/_Map/LevelOne/D/SI/4O1D3MNPGH6ON6W4V8LK76
+/Game/__ExternalActors__/_Map/LevelOne/D/XC/4XGAO7Y060ODH81KH2N8SQ
+/Game/__ExternalActors__/_Map/LevelOne/E/6Q/95QIE809G6K6XFXWXCBV6X
+/Game/__ExternalActors__/_Map/LevelOne/E/H5/IFKM5V5KCOHNUNOWM82LO8
+/Game/__ExternalActors__/_Map/LevelOne/E/JJ/90MXUKZQWAR5BOA1LHW6T6
+/Game/__ExternalActors__/_Map/LevelOne/E/MR/1NYDIIHYDD7MWY35FY0YF6
+/Game/__ExternalActors__/_Map/LevelOne/E/RU/5X223DW0PESJNOC1HJ97Q8
+/Game/__ExternalActors__/_Map/LevelOne/E/X3/17TSFBDFDP17COWT2P0GQW
+/Game/__ExternalActors__/_Map/LevelOne/F/0L/RTB429GP23MOK5XUYWBY42
+/Game/__ExternalObjects__/_Map/LevelOne/2/J9/KYPJ2FB2S2TXSDSWOTOVHQ
+/Game/__ExternalObjects__/_Map/LevelOne/3/7Y/ESM9FG3HNZD6HY5XP7WJYB
+/Game/__ExternalObjects__/_Map/LevelOne/3/N5/IRYDJPCSOE6U2JF22Y8AVZ
+/Game/__ExternalObjects__/_Map/LevelOne/4/TN/250B2J6KLLV2W8LYIJ82KI
+/Game/__ExternalObjects__/_Map/LevelOne/7/Q7/RV0CQAUUEA7Z4NHLFZ9CAM
+/Game/__ExternalObjects__/_Map/LevelOne/9/1K/6LGN3KOG0XKHYHVVYSCY2C
+[2023.12.23-11.24.14:044][493]LogFileHelpers: Saving map 'LevelOne' took 2.969
+[2023.12.23-11.24.14:044][493]Cmd: MAP LOAD FILE="D:/UnrealShooter/UnrealShooter/Content/_Map/LevelOne.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.12.23-11.24.14:044][493]LightingResults: New page: Lighting Build
+[2023.12.23-11.24.14:044][493]LoadErrors: New page: Loading map: LevelOne.umap
+[2023.12.23-11.24.14:085][493]LogWorld: UWorld::CleanupWorld for LevelOne, bSessionEnded=true, bCleanupResources=true
+[2023.12.23-11.24.14:086][493]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.23-11.24.14:089][493]LogContentBundle: [LevelOne(Standalone)] Deleting container.
+[2023.12.23-11.24.14:089][493]MapCheck: New page: Map Check
+[2023.12.23-11.24.14:089][493]LightingResults: New page: Lighting Build
+[2023.12.23-11.24.14:093][493]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.23-11.24.14:105][493]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2023.12.23-11.24.14:109][493]LogWorld: UWorld::CleanupWorld for LevelOne, bSessionEnded=true, bCleanupResources=true
+[2023.12.23-11.24.14:113][493]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.23-11.24.14:114][493]LogContentBundle: [LevelOne(Standalone)] Deleting container.
+[2023.12.23-11.24.14:124][493]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2023.12.23-11.24.14:127][493]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2023.12.23-11.24.14:130][493]LogAudio: Display: Audio Device (ID: 1) registered with world 'LevelOne'.
+[2023.12.23-11.24.14:130][493]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.23-11.24.14:130][493]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.23-11.24.14:130][493]LogAIModule: Creating AISystem for world LevelOne
+[2023.12.23-11.24.14:131][493]LogWorldPartition: ULevel::OnLevelLoaded(LevelOne)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2023.12.23-11.24.14:131][493]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.23-11.24.14:131][493]LogWorldPartition: UWorldPartition::Initialize : World = LevelOne, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.23-11.24.14:269][493]LogContentBundle: [LevelOne(Standalone)] Creating new contrainer.
+[2023.12.23-11.24.14:269][493]LogWorldPartition: Display: WorldPartition initialize took 137 ms (total: 711 ms)
+[2023.12.23-11.24.14:585][493]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.12.23-11.24.14:592][493]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2023.12.23-11.24.14:593][493]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.12.23-11.24.14:594][493]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.465ms to complete.
+[2023.12.23-11.24.14:604][493]AssetCheck: New page: Asset Save: multiple assets
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Engine.World /Game/_Map/LevelOne.LevelOne
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Engine.WorldDataLayers /Game/_Map/LevelOne.LevelOne:PersistentLevel.WorldDataLayers
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Engine.DirectionalLight /Game/_Map/LevelOne.LevelOne:PersistentLevel.DirectionalLight_UAID_A85E45CFE40401D200_1470382761
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Engine.SkyLight /Game/_Map/LevelOne.LevelOne:PersistentLevel.SkyLight_UAID_A85E45CFE40401D200_1470380759
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Engine.PlayerStart /Game/_Map/LevelOne.LevelOne:PersistentLevel.PlayerStart_UAID_F02F74551BF5599B01_1153002503
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Engine.WorldPartitionMiniMap /Game/_Map/LevelOne.LevelOne:PersistentLevel.WorldPartitionMiniMap_UAID_3497F631D5890DD300_1296925927
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Engine.SkyAtmosphere /Game/_Map/LevelOne.LevelOne:PersistentLevel.SkyAtmosphere_UAID_A85E45CFE40401D200_1470382762
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.Landscape /Game/_Map/LevelOne.LevelOne:PersistentLevel.Landscape_UAID_A85E45CFE404FBD100_1221515703
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Engine.VolumetricCloud /Game/_Map/LevelOne.LevelOne:PersistentLevel.VolumetricCloud_UAID_A85E45CFE40401D200_1470381760
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/_Map/LevelOne.LevelOne:PersistentLevel.StaticMeshActor_UAID_A4AE111137DC54FB00_1240666663
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Engine.ExponentialHeightFog /Game/_Map/LevelOne.LevelOne:PersistentLevel.ExponentialHeightFog_UAID_A85E45CFE40401D200_1470382763
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_3_2_0
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_3_3_0
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_3_0
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_3_4_0
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_3_5_0
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_4_0
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_5_0
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_0_0
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_1_0
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_0_0
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_1_0
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_2_0
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_3_0
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_2_0
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_3_0
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_0_0
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_1_0
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_3_0_0
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_3_1_0
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_2_0
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_3_0
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_0_0
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_0_0
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_1_0
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_1_0
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_0_0
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_1_0
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_2_0
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_2_0
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_3_0
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_2_0
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_3_0
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_0_0
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_1_0
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_2_0
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_3_0
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_4_0
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_5_0
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_6_0
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_5_0
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_4_0
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_6_0
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_7_0
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_7_0
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_4_0
+[2023.12.23-11.24.14:604][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_5_0
+[2023.12.23-11.24.14:605][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_6_0
+[2023.12.23-11.24.14:605][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_3_6_0
+[2023.12.23-11.24.14:605][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_7_0
+[2023.12.23-11.24.14:605][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_3_7_0
+[2023.12.23-11.24.14:605][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_4_0
+[2023.12.23-11.24.14:605][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_5_0
+[2023.12.23-11.24.14:605][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_6_0
+[2023.12.23-11.24.14:605][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_6_0
+[2023.12.23-11.24.14:605][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_4_0
+[2023.12.23-11.24.14:605][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_5_0
+[2023.12.23-11.24.14:605][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_6_0
+[2023.12.23-11.24.14:605][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_7_0
+[2023.12.23-11.24.14:605][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_7_0
+[2023.12.23-11.24.14:605][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_7_0
+[2023.12.23-11.24.14:605][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_4_0
+[2023.12.23-11.24.14:605][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_5_0
+[2023.12.23-11.24.14:605][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_6_0
+[2023.12.23-11.24.14:605][493]LogContentValidation: Display: Validating /Script/Landscape.LandscapeStreamingProxy /Game/_Map/LevelOne.LevelOne:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_7_0
+[2023.12.23-11.24.14:605][493]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/_Map/LevelOne.LevelOne:PersistentLevel.ActorFolder_UID_B7E9BD5B-45A65265-4791988D-EF54CCEB
+[2023.12.23-11.24.14:605][493]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/_Map/LevelOne.LevelOne:PersistentLevel.ActorFolder_UID_C11A5F59-487C0DB2-AA58CABA-5DEDB377
+[2023.12.23-11.24.14:605][493]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/_Map/LevelOne.LevelOne:PersistentLevel.ActorFolder_UID_5D23A82E-411A5CFD-F61C6285-B0703174
+[2023.12.23-11.24.14:605][493]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/_Map/LevelOne.LevelOne:PersistentLevel.ActorFolder_UID_26DBD2B7-434D115B-68D5CB88-82E789AF
+[2023.12.23-11.24.14:605][493]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/_Map/LevelOne.LevelOne:PersistentLevel.ActorFolder_UID_F0B34F1C-498F52BA-314B94B2-A472577C
+[2023.12.23-11.24.14:605][493]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/_Map/LevelOne.LevelOne:PersistentLevel.ActorFolder_UID_069B7288-4681824D-D41E3894-8B3951F3
+[2023.12.23-11.24.20:464][ 85]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.23-11.24.20:469][ 85]LogContentBundle: [LevelOne(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.23-11.24.20:469][ 85]LogWorldPartition: Display: GenerateStreaming for 'LevelOne' started...
+[2023.12.23-11.24.20:533][ 85]LogWorldPartition: Display: GenerateStreaming for 'LevelOne' took 64 ms (total: 130 ms)
+[2023.12.23-11.24.20:533][ 85]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.23-11.24.20:533][ 85]PIE: New page: PIE session: LevelOne (24 Dec 2023, 8:24:20 am)
+[2023.12.23-11.24.20:555][ 85]LogPlayLevel: Creating play world package: /Game/_Map/UEDPIE_0_LevelOne
+[2023.12.23-11.24.20:562][ 85]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007022s)
+[2023.12.23-11.24.20:562][ 85]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Map/LevelOne.LevelOne to /Game/_Map/UEDPIE_0_LevelOne.LevelOne (0.007056s)
+[2023.12.23-11.24.20:564][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2023.12.23-11.24.20:566][ 85]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.23-11.24.20:566][ 85]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.23-11.24.20:566][ 85]LogAIModule: Creating AISystem for world LevelOne
+[2023.12.23-11.24.20:567][ 85]LogWorldPartition: ULevel::OnLevelLoaded(LevelOne)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.23-11.24.20:567][ 85]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.23-11.24.20:567][ 85]LogWorldPartition: UWorldPartition::Initialize : World = LevelOne, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.23-11.24.20:567][ 85]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.23-11.24.20:569][ 85]LogContentBundle: [LevelOne(Standalone)] Creating new contrainer.
+[2023.12.23-11.24.20:569][ 85]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 713 ms)
+[2023.12.23-11.24.20:569][ 85]LogPlayLevel: PIE: World Init took: (0.003002s)
+[2023.12.23-11.24.20:569][ 85]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.12.23-11.24.20:569][ 85]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.23-11.24.20:569][ 85]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.23-11.24.20:569][ 85]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.23-11.24.20:569][ 85]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.23-11.24.20:569][ 85]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.23-11.24.20:569][ 85]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.23-11.24.20:569][ 85]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.23-11.24.20:569][ 85]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.23-11.24.20:569][ 85]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.23-11.24.20:569][ 85]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.23-11.24.20:569][ 85]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.23-11.24.20:571][ 85]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.23-11.24.20:603][ 85]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek USB2.0 Audio)
+[2023.12.23-11.24.20:603][ 85]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.23-11.24.20:603][ 85]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.23-11.24.20:603][ 85]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.23-11.24.20:604][ 85]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2023.12.23-11.24.20:604][ 85]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2023.12.23-11.24.20:605][ 85]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2023.12.23-11.24.20:605][ 85]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2023.12.23-11.24.20:605][ 85]LogInit: FAudioDevice initialized with ID 4.
+[2023.12.23-11.24.20:605][ 85]LogAudio: Display: Audio Device (ID: 4) registered with world 'LevelOne'.
+[2023.12.23-11.24.20:605][ 85]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2023.12.23-11.24.20:608][ 85]LogLoad: Game class is 'GameModeBase'
+[2023.12.23-11.24.20:608][ 85]LogWorld: Bringing World /Game/_Map/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 0) at 2023.12.23-21.54.20
+[2023.12.23-11.24.20:608][ 85]LogWorld: Bringing up level for play took: 0.000516
+[2023.12.23-11.24.20:609][ 85]LogOnline: OSS: Created online subsystem instance for: :Context_4
+[2023.12.23-11.24.20:610][ 85]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(45), CellsToLoad(0), CellsToUnload(0)
+[2023.12.23-11.24.20:610][ 85]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-200.000 Y=0.000 Z=92.000,P=0.000000 Y=180.000000 R=-0.000000
+[2023.12.23-11.24.20:612][ 85]LogStreaming: Display: FlushAsyncLoading(): 60 QueuedPackages, 0 AsyncPackages
+[2023.12.23-11.24.20:748][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/F/0L/RTB429GP23MOK5XUYWBY42.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.12.23-11.24.20:748][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/F/0L/RTB429GP23MOK5XUYWBY42.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.12.23-11.24.20:748][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/E/X3/17TSFBDFDP17COWT2P0GQW.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.24.20:748][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/E/RU/5X223DW0PESJNOC1HJ97Q8.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.24.20:748][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/E/MR/1NYDIIHYDD7MWY35FY0YF6.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.24.20:748][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/E/JJ/90MXUKZQWAR5BOA1LHW6T6.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.12.23-11.24.20:748][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/E/JJ/90MXUKZQWAR5BOA1LHW6T6.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.12.23-11.24.20:748][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/E/H5/IFKM5V5KCOHNUNOWM82LO8.StaticMesh_HLOD0_Instancing_7 being ready before playing
+[2023.12.23-11.24.20:748][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/E/H5/IFKM5V5KCOHNUNOWM82LO8.StaticMesh_HLOD0_Instancing_6 being ready before playing
+[2023.12.23-11.24.20:748][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/E/H5/IFKM5V5KCOHNUNOWM82LO8.StaticMesh_HLOD0_Instancing_5 being ready before playing
+[2023.12.23-11.24.20:748][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/E/H5/IFKM5V5KCOHNUNOWM82LO8.StaticMesh_HLOD0_Instancing_4 being ready before playing
+[2023.12.23-11.24.20:748][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/E/6Q/95QIE809G6K6XFXWXCBV6X.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.24.20:748][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/D/XC/4XGAO7Y060ODH81KH2N8SQ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.24.20:748][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/D/SI/4O1D3MNPGH6ON6W4V8LK76.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.12.23-11.24.20:748][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/D/SI/4O1D3MNPGH6ON6W4V8LK76.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.12.23-11.24.20:748][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/D/GG/6BQVB4F2G85C1MGFA1V6A1.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.24.20:748][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/C/J4/70DP0NRONWMQ3HPAFME4L7.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.24.20:748][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/C/IX/ODCBN0F1XIGRZHU0RQNIFR.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.24.20:748][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/C/G6/HS7Z6SNUV77XGI8EWSQPUK.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.24.20:748][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/B/YS/BYC8A9YKX9RFDG0I34Y7HD.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.12.23-11.24.20:748][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/B/YS/BYC8A9YKX9RFDG0I34Y7HD.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.12.23-11.24.20:748][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/B/NK/TL71X5T8M13HI2IF7JMFMB.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.24.20:748][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/B/1W/OXKLABPUA26VJBCKWFL6O3.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.24.20:748][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/A/0K/UXJFMMIFKBKHN6NSIRH2KU.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.24.20:748][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/9/Q6/59DVGEIUGUNIBRNA3C2Q7T.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.24.20:748][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/9/LQ/VW0FWXVUZTOQ8DWEO9M8QQ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.24.20:748][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/9/C0/2H881W7KH5A40LKSCX8X9T.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.12.23-11.24.20:748][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/9/C0/2H881W7KH5A40LKSCX8X9T.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.12.23-11.24.20:748][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/8/RV/BRWWVB9Q9UHPEZZEZ97KKG.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.24.20:748][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/8/QM/H2Q8S7JSD1HX86SB8U6AVT.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.24.20:748][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/8/8D/74M4WWZHR7VB4UXENLQ8ER.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.12.23-11.24.20:748][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/8/8D/74M4WWZHR7VB4UXENLQ8ER.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.12.23-11.24.20:749][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/7/WQ/N8X3IKA5AIAVWB2SEYXSA0.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.12.23-11.24.20:749][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/7/WQ/N8X3IKA5AIAVWB2SEYXSA0.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.12.23-11.24.20:749][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/7/OU/L9Q30T3N7SQYV0HDRA6ZX5.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.24.20:749][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/7/HI/ATOW8OHD0YJ1M2A13PJW5W.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.24.20:749][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/7/6T/A87JBMMSUB31IY4LOFX2IM.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.24.20:749][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/7/2V/2A5N2RCCYBRQHYFKD8QDTX.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.24.20:749][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/6/HA/Y0SVA641B3R8TK0YDASILC.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.24.20:749][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/6/GD/X2PSWPJKKY6LHYYAVLKMW4.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.12.23-11.24.20:749][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/6/GD/X2PSWPJKKY6LHYYAVLKMW4.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.12.23-11.24.20:749][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/6/FR/C8IAIK9WC7X5Q9907TYA78.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.24.20:749][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/6/3N/P61ET7JVLOUJ6XPINN51KJ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.24.20:749][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/5/VR/M3V8RW7RIZC8HVIA18FCHV.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.24.20:749][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/4/HB/4ZW0DF6NEL3DAXIZY8AYT8.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.12.23-11.24.20:749][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/4/HB/4ZW0DF6NEL3DAXIZY8AYT8.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.12.23-11.24.20:749][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/4/CX/2UHCGDT7LWL48R3S5YA6NC.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.12.23-11.24.20:749][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/4/CX/2UHCGDT7LWL48R3S5YA6NC.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.12.23-11.24.20:749][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/4/9A/4FJGZVF13SAY9O0P9RPTJQ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.24.20:749][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/3/T0/U0B8BG4UL89UOQNV8CQWGS.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.12.23-11.24.20:749][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/3/T0/U0B8BG4UL89UOQNV8CQWGS.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.12.23-11.24.20:749][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/3/SZ/6N9VGTGSB7DRVTCIR67NUT.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.24.20:749][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/3/QA/XIKCVMIDVTW8KZAGZ92GG5.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.24.20:749][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/3/K0/C79R9MOCU8RNT6S6VF957M.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.24.20:749][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/3/CV/H6OWPLYFUGX3GQPAWSC2OA.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2023.12.23-11.24.20:749][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/3/CV/H6OWPLYFUGX3GQPAWSC2OA.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.12.23-11.24.20:749][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/3/25/MLV7K4OOGTK8QY74OR23F9.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.24.20:749][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/2/R2/RQ4P4HZHGB6N1DRB2JLTZZ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.24.20:749][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/2/PO/KSC0DY8ET11R1MHH1WBQOR.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.24.20:749][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/2/JV/PT3Q13K6630Y58KWQ530E0.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.24.20:749][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/1/EP/NLCBGZMY3MGR06260XUUDJ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.24.20:749][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/1/BC/O3L42TB1CKYFQTN9CTBMN3.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.24.20:749][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/0/XN/OKU94P209EXBINBYEFXY4Y.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.24.20:749][ 85]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/_Map/LevelOne/0/W8/UDZNF0MKJ2K58CHX14CNQB.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.12.23-11.24.20:780][ 85]PIE: Server logged in
+[2023.12.23-11.24.20:780][ 85]PIE: Play in editor total start time 0.311 seconds.
+[2023.12.23-11.24.24:946][417]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.23-11.24.24:946][417]LogWorld: BeginTearingDown for /Game/_Map/UEDPIE_0_LevelOne
+[2023.12.23-11.24.24:954][417]LogWorld: UWorld::CleanupWorld for LevelOne, bSessionEnded=true, bCleanupResources=true
+[2023.12.23-11.24.24:954][417]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.23-11.24.24:954][417]LogContentBundle: [LevelOne(Standalone)] Deleting container.
+[2023.12.23-11.24.24:957][417]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.23-11.24.24:960][417]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.23-11.24.24:964][417]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.23-11.24.24:965][417]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2023.12.23-11.24.24:965][417]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.12.23-11.24.24:966][417]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.12.23-11.24.24:980][417]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2023.12.23-11.24.25:021][418]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2023.12.23-11.24.32:914][329]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.23-11.24.32:915][329]LogWorldPartition: ULevel::OnLevelLoaded(LevelOne)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2023.12.23-11.24.32:915][329]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.23-11.24.32:915][329]LogWorldPartition: UWorldPartition::Initialize : World = LevelOne, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.23-11.24.32:917][329]LogContentBundle: [LevelOne(Standalone)] Creating new contrainer.
+[2023.12.23-11.24.32:917][329]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 715 ms)
+[2023.12.23-11.24.32:940][329]LogObjectTools: Deleting 1 worlds: /Game/StarterContent/Maps/LevelOne.LevelOne
+[2023.12.23-11.24.32:940][329]LogObjectTools: Currently 2 active worlds: /Game/_Map/LevelOne.LevelOne, /Engine/Transient.World_0
+[2023.12.23-11.24.32:943][329]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2023.12.23-11.24.37:360][329]LogSlate: Window 'Delete Assets' being destroyed
+[2023.12.23-11.24.37:375][329]LogUObjectGlobals: Force Deleting 130 Package(s):
+	Asset Name: /Game/StarterContent/Maps/LevelOne.LevelOne
+	Asset Type: World
+	Asset Name: /Game/__ExternalActors__/StarterContent/Maps/LevelOne/5/HC/TW6LS3G2XEOFUPWU1OI6DA
+	Asset Type: Package
+	Asset Name: /Game/__ExternalObjects__/StarterContent/Maps/LevelOne/2/J9/KYPJ2FB2S2TXSDSWOTOVHQ
+	Asset Type: Package
+	Asset Name: /Game/__ExternalObjects__/StarterContent/Maps/LevelOne/3/7Y/ESM9FG3HNZD6HY5XP7WJYB
+	Asset Type: Package
+	Asset Name: /Game/__ExternalObjects__/StarterContent/Maps/LevelOne/3/N5/IRYDJPCSOE6U2JF22Y8AVZ
+	Asset Type: Package
+	Asset Name: /Game/__ExternalObjects__/StarterContent/Maps/LevelOne/4/TN/250B2J6KLLV2W8LYIJ82KI
+	Asset Type: Package
+	Asset Name: /Game/__ExternalObjects__/StarterContent/Maps/LevelOne/7/Q7/RV0CQAUUEA7Z4NHLFZ9CAM
+	Asset Type: Package
+	Asset Name: /Game/__ExternalObjects__/StarterContent/Maps/LevelOne/9/1K/6LGN3KOG0XKHYHVVYSCY2C
+	Asset Type: Package
+	Asset Name: /Game/__ExternalActors__/StarterContent/Maps/LevelOne/0/3E/UO336UCZMB8OD7EJMKK1ZG
+	Asset Type: Package
+	Asset Name: /Game/__ExternalActors__/StarterContent/Maps/LevelOne/0/3G/DE0L8LDKZPTLL98V4R8PWR
+	Asset Type: Package
+[2023.12.23-11.24.37:469][329]LogWorld: UWorld::CleanupWorld for LevelOne, bSessionEnded=true, bCleanupResources=true
+[2023.12.23-11.24.37:469][329]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.23-11.24.37:473][329]LogContentBundle: [LevelOne(Standalone)] Deleting container.
+[2023.12.23-11.24.38:258][329]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2023.12.23-11.24.38:262][329]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2023.12.23-11.24.38:264][329]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2023.12.23-11.24.38:285][329]LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Game/StarterContent/Maps/LevelOne does not exist, will not scan.
+[2023.12.23-11.24.42:187][766]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2023.12.23-11.24.44:915][766]LogSlate: Window 'Delete Assets' being destroyed
+[2023.12.23-11.24.44:933][766]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/StarterContent/Maps/LevelOne_HLOD0_Instancing.LevelOne_HLOD0_Instancing
+	Asset Type: HLODLayer
+[2023.12.23-11.24.45:028][766]LogObjectTools: Warning: Detected inconsistencies between reference gathering algorithms. Switching 'Editor.UseLegacyGetReferencersForDeletion' on for the remainder of this editor session.
+[2023.12.23-11.24.45:062][766]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2023.12.23-11.24.45:064][766]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2023.12.23-11.24.45:067][766]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2023.12.23-11.24.51:496][515]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2023.12.23-11.24.53:541][515]LogSlate: Window 'Save Content' being destroyed
+[2023.12.23-11.24.53:578][515]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.23-11.24.53:612][515]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Map/LevelOne" FILE="D:/UnrealShooter/UnrealShooter/Content/_Map/LevelOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.12.23-11.24.53:621][515]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2023.12.23-11.24.53:624][515]LogSavePackage: Moving output files for package: /Game/_Map/LevelOne
+[2023.12.23-11.24.53:624][515]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/LevelOneF3D6249E4E83148EB9A9E7BFCA70BFC3.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/_Map/LevelOne.umap'
+[2023.12.23-11.24.53:626][515]LogFileHelpers: All files are already saved.
+[2023.12.23-11.24.53:630][515]LogFileHelpers: Saving map 'LevelOne' took 0.019
+[2023.12.23-11.24.53:635][515]LogFileHelpers: InternalPromptForCheckoutAndSave took 56 ms (total: 1.81 sec)
+[2023.12.23-11.24.53:635][515]LogAssetEditorSubsystem: Opening Asset editor for World /Game/_Map/LevelOne.LevelOne
+[2023.12.23-11.24.53:635][515]Cmd: MAP LOAD FILE="D:/UnrealShooter/UnrealShooter/Content/_Map/LevelOne.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.12.23-11.24.53:635][515]LightingResults: New page: Lighting Build
+[2023.12.23-11.24.53:635][515]LoadErrors: New page: Loading map: LevelOne.umap
+[2023.12.23-11.24.53:685][515]LogWorld: UWorld::CleanupWorld for LevelOne, bSessionEnded=true, bCleanupResources=true
+[2023.12.23-11.24.53:685][515]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.23-11.24.53:689][515]LogContentBundle: [LevelOne(Standalone)] Deleting container.
+[2023.12.23-11.24.53:689][515]MapCheck: New page: Map Check
+[2023.12.23-11.24.53:689][515]LightingResults: New page: Lighting Build
+[2023.12.23-11.24.53:694][515]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.23-11.24.53:700][515]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2023.12.23-11.24.53:705][515]LogAudio: Display: Audio Device (ID: 1) registered with world 'LevelOne'.
+[2023.12.23-11.24.53:705][515]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.23-11.24.53:705][515]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.23-11.24.53:705][515]LogAIModule: Creating AISystem for world LevelOne
+[2023.12.23-11.24.53:705][515]LogWorldPartition: ULevel::OnLevelLoaded(LevelOne)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2023.12.23-11.24.53:705][515]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.23-11.24.53:705][515]LogWorldPartition: UWorldPartition::Initialize : World = LevelOne, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.23-11.24.53:845][515]LogContentBundle: [LevelOne(Standalone)] Creating new contrainer.
+[2023.12.23-11.24.53:845][515]LogWorldPartition: Display: WorldPartition initialize took 140 ms (total: 856 ms)
+[2023.12.23-11.24.54:163][515]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.12.23-11.24.54:170][515]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2023.12.23-11.24.54:171][515]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.12.23-11.24.54:171][515]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.351ms to complete.
+[2023.12.23-11.24.54:174][515]AssetCheck: New page: Asset Save: LevelOne
+[2023.12.23-11.24.54:174][515]LogContentValidation: Display: Validating /Script/Engine.World /Game/_Map/LevelOne.LevelOne
+[2023.12.23-11.25.15:521][483]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.12.23-11.25.15:547][483]LogContentBrowser: Creating deferred item: NewFolder
+[2023.12.23-11.25.15:553][484]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.12.23-11.25.22:015][190]LogContentBrowser: Attempting asset rename: NewFolder -> _Blueprints
+[2023.12.23-11.25.22:015][190]LogContentBrowser: End creating deferred item NewFolder
+[2023.12.23-11.25.32:090][247]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.12.23-11.25.32:099][247]LogContentBrowser: Creating deferred item: NewFolder
+[2023.12.23-11.25.32:106][248]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.12.23-11.25.43:580][494]LogContentBrowser: Attempting asset rename: NewFolder -> NewFolder
+[2023.12.23-11.25.43:581][494]LogContentBrowser: End creating deferred item NewFolder
+[2023.12.23-11.26.53:134][657]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.12.23-11.26.57:289][ 79]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.12.23-11.26.57:289][ 79]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.12.23-11.26.57:291][ 79]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/_Map/LevelOne.LevelOne:PersistentLevel.StaticMeshActor_UAID_D85ED38A920AAEC801_1734387983
+[2023.12.23-11.26.57:291][ 79]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/_Map/LevelOne.LevelOne:PersistentLevel.StaticMeshActor_UAID_D85ED38A920AAEC801_1734387983
+[2023.12.23-11.26.57:358][ 80]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.23-11.33.18:499][736]LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Game/StarterContent/Maps/LevelOne does not exist, will not scan.
+[2023.12.23-11.34.15:579][877]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.12.23-11.34.17:049][ 30]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.12.23-11.34.20:037][326]Cmd: DELETE
+[2023.12.23-11.34.20:037][326]Cmd: ACTOR DELETE
+[2023.12.23-11.34.20:040][326]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.23-11.34.20:057][326]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.12.23-11.34.20:059][326]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2023.12.23-11.34.51:803][894]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2023.12.23-11.34.51:806][894]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/_Map/LevelOne/4/R4/CZOR7FHSY0ST6IPQKCZPAD_Auto1
+[2023.12.23-11.34.51:806][894]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/CZOR7FHSY0ST6IPQKCZPAD_Auto1FEB97DC242A10DF9A2A0D49C5AF69619.tmp' to 'D:/UnrealShooter/UnrealShooter/Saved/Autosaves/Game/__ExternalActors__/_Map/LevelOne/4/R4/CZOR7FHSY0ST6IPQKCZPAD_Auto1.uasset'
+[2023.12.23-11.34.51:806][894]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/_Map/LevelOne' took 0.008
+[2023.12.23-11.34.51:806][894]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.008
+[2023.12.23-11.37.17:349][966]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Wall_400x400.Wall_400x400
+[2023.12.23-11.37.17:349][966]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Wall_400x400.Wall_400x400
+[2023.12.23-11.37.17:349][966]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Architecture/Wall_400x400.Wall_400x400 as actor: StaticMeshActor /Game/_Map/LevelOne.LevelOne:PersistentLevel.StaticMeshActor_0
+[2023.12.23-11.37.18:675][108]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Wall_400x400.Wall_400x400
+[2023.12.23-11.37.18:676][108]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Wall_400x400.Wall_400x400
+[2023.12.23-11.37.18:677][108]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Architecture/Wall_400x400.Wall_400x400 as actor: StaticMeshActor /Game/_Map/LevelOne.LevelOne:PersistentLevel.StaticMeshActor_UAID_D85ED38A920AAFC801_1282031160
+[2023.12.23-11.37.20:773][327]Cmd: DELETE
+[2023.12.23-11.37.20:773][327]Cmd: ACTOR DELETE
+[2023.12.23-11.37.20:774][327]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.23-11.37.20:781][327]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2023.12.23-11.37.20:783][327]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2023.12.23-11.37.25:959][824]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2023.12.23-11.37.25:959][824]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2023.12.23-11.37.25:959][824]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 as actor: StaticMeshActor /Game/_Map/LevelOne.LevelOne:PersistentLevel.StaticMeshActor_1
+[2023.12.23-11.37.26:477][876]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2023.12.23-11.37.26:477][876]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2023.12.23-11.37.26:478][876]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 as actor: StaticMeshActor /Game/_Map/LevelOne.LevelOne:PersistentLevel.StaticMeshActor_UAID_D85ED38A920AAFC801_1289833161
+[2023.12.23-11.38.11:582][285]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.12.23-11.38.17:424][850]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.12.23-11.38.18:720][987]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.12.23-11.38.19:868][106]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.23-11.38.19:873][106]LogContentBundle: [LevelOne(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.23-11.38.19:873][106]LogWorldPartition: Display: GenerateStreaming for 'LevelOne' started...
+[2023.12.23-11.38.19:876][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/0/W8/UDZNF0MKJ2K58CHX14CNQB': Can't find file.
+[2023.12.23-11.38.19:876][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/0/XN/OKU94P209EXBINBYEFXY4Y': Can't find file.
+[2023.12.23-11.38.19:876][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/1/BC/O3L42TB1CKYFQTN9CTBMN3': Can't find file.
+[2023.12.23-11.38.19:876][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/1/EP/NLCBGZMY3MGR06260XUUDJ': Can't find file.
+[2023.12.23-11.38.19:876][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/2/JV/PT3Q13K6630Y58KWQ530E0': Can't find file.
+[2023.12.23-11.38.19:876][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/2/PO/KSC0DY8ET11R1MHH1WBQOR': Can't find file.
+[2023.12.23-11.38.19:876][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/2/R2/RQ4P4HZHGB6N1DRB2JLTZZ': Can't find file.
+[2023.12.23-11.38.19:876][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/3/25/MLV7K4OOGTK8QY74OR23F9': Can't find file.
+[2023.12.23-11.38.19:876][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/3/CV/H6OWPLYFUGX3GQPAWSC2OA': Can't find file.
+[2023.12.23-11.38.19:876][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/3/K0/C79R9MOCU8RNT6S6VF957M': Can't find file.
+[2023.12.23-11.38.19:876][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/3/QA/XIKCVMIDVTW8KZAGZ92GG5': Can't find file.
+[2023.12.23-11.38.19:876][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/3/SZ/6N9VGTGSB7DRVTCIR67NUT': Can't find file.
+[2023.12.23-11.38.19:876][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/3/T0/U0B8BG4UL89UOQNV8CQWGS': Can't find file.
+[2023.12.23-11.38.19:877][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/4/9A/4FJGZVF13SAY9O0P9RPTJQ': Can't find file.
+[2023.12.23-11.38.19:877][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/4/CX/2UHCGDT7LWL48R3S5YA6NC': Can't find file.
+[2023.12.23-11.38.19:877][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/4/HB/4ZW0DF6NEL3DAXIZY8AYT8': Can't find file.
+[2023.12.23-11.38.19:877][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/5/VR/M3V8RW7RIZC8HVIA18FCHV': Can't find file.
+[2023.12.23-11.38.19:877][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/6/3N/P61ET7JVLOUJ6XPINN51KJ': Can't find file.
+[2023.12.23-11.38.19:877][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/6/FR/C8IAIK9WC7X5Q9907TYA78': Can't find file.
+[2023.12.23-11.38.19:877][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/6/GD/X2PSWPJKKY6LHYYAVLKMW4': Can't find file.
+[2023.12.23-11.38.19:877][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/6/HA/Y0SVA641B3R8TK0YDASILC': Can't find file.
+[2023.12.23-11.38.19:877][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/7/2V/2A5N2RCCYBRQHYFKD8QDTX': Can't find file.
+[2023.12.23-11.38.19:877][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/7/6T/A87JBMMSUB31IY4LOFX2IM': Can't find file.
+[2023.12.23-11.38.19:877][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/7/HI/ATOW8OHD0YJ1M2A13PJW5W': Can't find file.
+[2023.12.23-11.38.19:877][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/7/OU/L9Q30T3N7SQYV0HDRA6ZX5': Can't find file.
+[2023.12.23-11.38.19:877][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/7/WQ/N8X3IKA5AIAVWB2SEYXSA0': Can't find file.
+[2023.12.23-11.38.19:877][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/8/8D/74M4WWZHR7VB4UXENLQ8ER': Can't find file.
+[2023.12.23-11.38.19:877][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/8/QM/H2Q8S7JSD1HX86SB8U6AVT': Can't find file.
+[2023.12.23-11.38.19:877][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/8/RV/BRWWVB9Q9UHPEZZEZ97KKG': Can't find file.
+[2023.12.23-11.38.19:877][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/9/C0/2H881W7KH5A40LKSCX8X9T': Can't find file.
+[2023.12.23-11.38.19:877][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/9/LQ/VW0FWXVUZTOQ8DWEO9M8QQ': Can't find file.
+[2023.12.23-11.38.19:877][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/9/Q6/59DVGEIUGUNIBRNA3C2Q7T': Can't find file.
+[2023.12.23-11.38.19:877][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/A/0K/UXJFMMIFKBKHN6NSIRH2KU': Can't find file.
+[2023.12.23-11.38.19:877][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/B/1W/OXKLABPUA26VJBCKWFL6O3': Can't find file.
+[2023.12.23-11.38.19:877][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/B/NK/TL71X5T8M13HI2IF7JMFMB': Can't find file.
+[2023.12.23-11.38.19:877][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/B/YS/BYC8A9YKX9RFDG0I34Y7HD': Can't find file.
+[2023.12.23-11.38.19:877][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/C/G6/HS7Z6SNUV77XGI8EWSQPUK': Can't find file.
+[2023.12.23-11.38.19:877][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/C/IX/ODCBN0F1XIGRZHU0RQNIFR': Can't find file.
+[2023.12.23-11.38.19:877][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/C/J4/70DP0NRONWMQ3HPAFME4L7': Can't find file.
+[2023.12.23-11.38.19:877][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/D/GG/6BQVB4F2G85C1MGFA1V6A1': Can't find file.
+[2023.12.23-11.38.19:877][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/D/SI/4O1D3MNPGH6ON6W4V8LK76': Can't find file.
+[2023.12.23-11.38.19:877][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/D/XC/4XGAO7Y060ODH81KH2N8SQ': Can't find file.
+[2023.12.23-11.38.19:877][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/E/6Q/95QIE809G6K6XFXWXCBV6X': Can't find file.
+[2023.12.23-11.38.19:877][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/E/H5/IFKM5V5KCOHNUNOWM82LO8': Can't find file.
+[2023.12.23-11.38.19:877][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/E/JJ/90MXUKZQWAR5BOA1LHW6T6': Can't find file.
+[2023.12.23-11.38.19:878][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/E/MR/1NYDIIHYDD7MWY35FY0YF6': Can't find file.
+[2023.12.23-11.38.19:878][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/E/RU/5X223DW0PESJNOC1HJ97Q8': Can't find file.
+[2023.12.23-11.38.19:878][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/E/X3/17TSFBDFDP17COWT2P0GQW': Can't find file.
+[2023.12.23-11.38.19:878][106]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/_Map/LevelOne/F/0L/RTB429GP23MOK5XUYWBY42': Can't find file.
+[2023.12.23-11.38.19:878][106]LogWorldPartition: Display: GenerateStreaming for 'LevelOne' took 4 ms (total: 135 ms)
+[2023.12.23-11.38.19:878][106]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.23-11.38.19:878][106]PIE: New page: PIE session: LevelOne (24 Dec 2023, 8:38:19 am)
+[2023.12.23-11.38.19:914][106]LogPlayLevel: Creating play world package: /Game/_Map/UEDPIE_0_LevelOne
+[2023.12.23-11.38.19:920][106]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005612s)
+[2023.12.23-11.38.19:921][106]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Map/LevelOne.LevelOne to /Game/_Map/UEDPIE_0_LevelOne.LevelOne (0.005648s)
+[2023.12.23-11.38.19:922][106]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2023.12.23-11.38.19:924][106]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.23-11.38.19:924][106]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.23-11.38.19:925][106]LogAIModule: Creating AISystem for world LevelOne
+[2023.12.23-11.38.19:925][106]LogWorldPartition: ULevel::OnLevelLoaded(LevelOne)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.23-11.38.19:925][106]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.23-11.38.19:925][106]LogWorldPartition: UWorldPartition::Initialize : World = LevelOne, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.23-11.38.19:925][106]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.23-11.38.19:926][106]LogContentBundle: [LevelOne(Standalone)] Creating new contrainer.
+[2023.12.23-11.38.19:926][106]LogWorldPartition: Display: WorldPartition initialize took 721 us (total: 857 ms)
+[2023.12.23-11.38.19:926][106]LogPlayLevel: PIE: World Init took: (0.001657s)
+[2023.12.23-11.38.19:926][106]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2023.12.23-11.38.19:926][106]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.23-11.38.19:926][106]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.23-11.38.19:926][106]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.23-11.38.19:926][106]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.23-11.38.19:926][106]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.23-11.38.19:926][106]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.23-11.38.19:926][106]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.23-11.38.19:926][106]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.23-11.38.19:926][106]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.23-11.38.19:926][106]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.23-11.38.19:926][106]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.23-11.38.19:928][106]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.23-11.38.19:961][106]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek USB2.0 Audio)
+[2023.12.23-11.38.19:961][106]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.23-11.38.19:961][106]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.23-11.38.19:961][106]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.23-11.38.19:962][106]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2023.12.23-11.38.19:962][106]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2023.12.23-11.38.19:962][106]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2023.12.23-11.38.19:962][106]LogInit: FAudioDevice initialized with ID 5.
+[2023.12.23-11.38.19:962][106]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2023.12.23-11.38.19:962][106]LogAudio: Display: Audio Device (ID: 5) registered with world 'LevelOne'.
+[2023.12.23-11.38.19:962][106]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2023.12.23-11.38.19:966][106]LogLoad: Game class is 'GameModeBase'
+[2023.12.23-11.38.19:966][106]LogWorld: Bringing World /Game/_Map/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 0) at 2023.12.23-22.08.19
+[2023.12.23-11.38.19:966][106]LogWorld: Bringing up level for play took: 0.000410
+[2023.12.23-11.38.19:967][106]LogOnline: OSS: Created online subsystem instance for: :Context_6
+[2023.12.23-11.38.19:968][106]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(41), CellsToLoad(0), CellsToUnload(0)
+[2023.12.23-11.38.19:968][106]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-170.000 Y=-5870.000 Z=862.000,P=0.000000 Y=180.000000 R=-0.000000
+[2023.12.23-11.38.19:974][106]LogStreaming: Display: FlushAsyncLoading(): 52 QueuedPackages, 0 AsyncPackages
+[2023.12.23-11.38.20:116][106]PIE: Server logged in
+[2023.12.23-11.38.20:117][106]PIE: Play in editor total start time 0.244 seconds.
+[2023.12.23-11.38.32:904][197]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.23-11.38.32:904][197]LogWorld: BeginTearingDown for /Game/_Map/UEDPIE_0_LevelOne
+[2023.12.23-11.38.32:913][197]LogWorld: UWorld::CleanupWorld for LevelOne, bSessionEnded=true, bCleanupResources=true
+[2023.12.23-11.38.32:913][197]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.23-11.38.32:913][197]LogContentBundle: [LevelOne(Standalone)] Deleting container.
+[2023.12.23-11.38.32:915][197]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.23-11.38.32:918][197]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.23-11.38.32:923][197]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.23-11.38.32:923][197]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2023.12.23-11.38.32:923][197]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.12.23-11.38.32:925][197]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.12.23-11.38.32:928][197]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.23-11.38.32:934][197]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2023.12.23-11.38.33:041][199]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2023.12.23-11.38.38:962][791]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Wall_400x400.Wall_400x400
+[2023.12.23-11.38.38:962][791]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Wall_400x400.Wall_400x400
+[2023.12.23-11.38.38:962][791]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Architecture/Wall_400x400.Wall_400x400 as actor: StaticMeshActor /Game/_Map/LevelOne.LevelOne:PersistentLevel.StaticMeshActor_2
+[2023.12.23-11.38.41:404][ 48]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Wall_400x400.Wall_400x400
+[2023.12.23-11.38.41:404][ 48]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Wall_400x400.Wall_400x400
+[2023.12.23-11.38.41:405][ 48]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Architecture/Wall_400x400.Wall_400x400 as actor: StaticMeshActor /Game/_Map/LevelOne.LevelOne:PersistentLevel.StaticMeshActor_UAID_D85ED38A920AAFC801_1364760162
+[2023.12.23-11.38.44:477][339]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Wall_Door_400x300.Wall_Door_400x300
+[2023.12.23-11.38.44:477][339]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Wall_Door_400x300.Wall_Door_400x300
+[2023.12.23-11.38.44:477][339]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Architecture/Wall_Door_400x300.Wall_Door_400x300 as actor: StaticMeshActor /Game/_Map/LevelOne.LevelOne:PersistentLevel.StaticMeshActor_3
+[2023.12.23-11.38.44:976][391]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Wall_Door_400x300.Wall_Door_400x300
+[2023.12.23-11.38.44:976][391]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Wall_Door_400x300.Wall_Door_400x300
+[2023.12.23-11.38.44:977][391]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Architecture/Wall_Door_400x300.Wall_Door_400x300 as actor: StaticMeshActor /Game/_Map/LevelOne.LevelOne:PersistentLevel.StaticMeshActor_UAID_D85ED38A920AAFC801_1368332163
+[2023.12.23-11.39.11:093][233]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2023.12.23-11.39.12:974][233]LogSlate: Window 'Save Content' being destroyed
+[2023.12.23-11.39.13:008][233]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.23-11.39.13:033][233]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/9/Z6/EJ9JTCXCXTXCV4G970O1VH
+[2023.12.23-11.39.13:033][233]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/EJ9JTCXCXTXCV4G970O1VHFA8516F043B32419F88366B5AF9FBAAE.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/9/Z6/EJ9JTCXCXTXCV4G970O1VH.uasset'
+[2023.12.23-11.39.13:060][233]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/4/R4/CZOR7FHSY0ST6IPQKCZPAD
+[2023.12.23-11.39.13:061][233]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/CZOR7FHSY0ST6IPQKCZPADCF0A22D94D17DE9FE580578E46721886.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/4/R4/CZOR7FHSY0ST6IPQKCZPAD.uasset'
+[2023.12.23-11.39.13:062][233]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/_Map/LevelOne/1/QS/EE0BCFJF6U1KIMNWQCJCX5
+[2023.12.23-11.39.13:062][233]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/EE0BCFJF6U1KIMNWQCJCX519B2314C4D1065D01432A99DE2C9CBCB.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalObjects__/_Map/LevelOne/1/QS/EE0BCFJF6U1KIMNWQCJCX5.uasset'
+[2023.12.23-11.39.13:063][233]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/D/H7/IXNSMYUSY11GXX8VKJ94I1
+[2023.12.23-11.39.13:063][233]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/IXNSMYUSY11GXX8VKJ94I13458F7694C5B64D5162130AAE699CB41.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/D/H7/IXNSMYUSY11GXX8VKJ94I1.uasset'
+[2023.12.23-11.39.13:064][233]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/_Map/LevelOne/5/ZJ/10LDVZLD97SL6CCJXKJZKH
+[2023.12.23-11.39.13:064][233]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/10LDVZLD97SL6CCJXKJZKH62D59B2644ED315AD8F1C8A186841256.tmp' to 'D:/UnrealShooter/UnrealShooter/Content/__ExternalActors__/_Map/LevelOne/5/ZJ/10LDVZLD97SL6CCJXKJZKH.uasset'
+[2023.12.23-11.39.13:071][233]LogFileHelpers: InternalPromptForCheckoutAndSave took 62 ms (total: 1.87 sec)
+[2023.12.23-11.39.13:115][233]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.23-11.39.13:120][233]LogAssetEditorSubsystem: Opening Asset editor for World /Game/StarterContent/Maps/StarterMap.StarterMap
+[2023.12.23-11.39.13:120][233]Cmd: MAP LOAD FILE="D:/UnrealShooter/UnrealShooter/Content/StarterContent/Maps/StarterMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.12.23-11.39.13:120][233]LightingResults: New page: Lighting Build
+[2023.12.23-11.39.13:121][233]LoadErrors: New page: Loading map: StarterMap.umap
+[2023.12.23-11.39.13:155][233]LogWorld: UWorld::CleanupWorld for LevelOne, bSessionEnded=true, bCleanupResources=true
+[2023.12.23-11.39.13:156][233]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.23-11.39.13:157][233]LogContentBundle: [LevelOne(Standalone)] Deleting container.
+[2023.12.23-11.39.13:157][233]MapCheck: New page: Map Check
+[2023.12.23-11.39.13:157][233]LightingResults: New page: Lighting Build
+[2023.12.23-11.39.13:164][233]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.23-11.39.13:171][233]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2023.12.23-11.39.13:174][233]LogWorld: UWorld::CleanupWorld for StarterMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.23-11.39.13:175][233]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.23-11.39.13:179][233]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2023.12.23-11.39.13:182][233]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2023.12.23-11.39.13:195][233]LogAudio: Display: Audio Device (ID: 1) registered with world 'StarterMap'.
+[2023.12.23-11.39.13:195][233]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.23-11.39.13:196][233]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.23-11.39.13:196][233]LogAIModule: Creating AISystem for world StarterMap
+[2023.12.23-11.39.13:243][233]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.12.23-11.39.13:248][233]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2023.12.23-11.39.13:268][233]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.12.23-11.39.13:268][233]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.082ms to complete.
+[2023.12.23-11.39.13:279][233]AssetCheck: New page: Asset Save: multiple assets
+[2023.12.23-11.39.37:612][691]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.23-11.39.37:612][691]PIE: New page: SIE session: StarterMap (24 Dec 2023, 8:39:37 am)
+[2023.12.23-11.39.37:612][691]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_StarterMap
+[2023.12.23-11.39.37:623][691]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011053s)
+[2023.12.23-11.39.37:623][691]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/StarterMap.StarterMap to /Game/StarterContent/Maps/UEDPIE_0_StarterMap.StarterMap (0.011084s)
+[2023.12.23-11.39.37:625][691]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2023.12.23-11.39.37:627][691]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.23-11.39.37:627][691]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.23-11.39.37:627][691]LogAIModule: Creating AISystem for world StarterMap
+[2023.12.23-11.39.37:627][691]LogPlayLevel: PIE: World Init took: (0.000727s)
+[2023.12.23-11.39.37:627][691]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.12.23-11.39.37:627][691]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.23-11.39.37:627][691]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.23-11.39.37:627][691]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.23-11.39.37:627][691]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.23-11.39.37:627][691]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.23-11.39.37:627][691]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.23-11.39.37:627][691]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.23-11.39.37:627][691]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.23-11.39.37:628][691]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.23-11.39.37:628][691]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.23-11.39.37:628][691]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.23-11.39.37:630][691]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.23-11.39.37:661][691]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek USB2.0 Audio)
+[2023.12.23-11.39.37:662][691]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.23-11.39.37:662][691]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.23-11.39.37:662][691]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.23-11.39.37:663][691]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2023.12.23-11.39.37:663][691]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2023.12.23-11.39.37:664][691]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2023.12.23-11.39.37:664][691]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2023.12.23-11.39.37:664][691]LogInit: FAudioDevice initialized with ID 6.
+[2023.12.23-11.39.37:664][691]LogAudio: Display: Audio Device (ID: 6) registered with world 'StarterMap'.
+[2023.12.23-11.39.37:664][691]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2023.12.23-11.39.37:666][691]LogLoad: Game class is 'GameModeBase'
+[2023.12.23-11.39.37:670][691]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_StarterMap.StarterMap up for play (max tick rate 0) at 2023.12.23-22.09.37
+[2023.12.23-11.39.37:671][691]LogWorld: Bringing up level for play took: 0.004557
+[2023.12.23-11.39.37:672][691]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2023.12.23-11.39.37:673][691]PIE: Server logged in
+[2023.12.23-11.39.37:673][691]PIE: Play in editor total start time 0.062 seconds.
+[2023.12.23-11.39.49:285][840]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.23-11.39.49:285][840]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_StarterMap
+[2023.12.23-11.39.49:285][840]LogWorld: UWorld::CleanupWorld for StarterMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.23-11.39.49:286][840]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.23-11.39.49:288][840]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.23-11.39.49:290][840]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.23-11.39.49:292][840]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.23-11.39.49:292][840]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2023.12.23-11.39.49:292][840]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.12.23-11.39.49:293][840]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.12.23-11.39.49:297][840]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.23-11.39.49:299][840]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2023.12.23-11.39.49:398][843]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2023.12.23-11.41.17:290][863]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2023.12.23-11.41.17:327][863]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.23-11.41.17:327][863]LogWorldPartition: ULevel::OnLevelLoaded(LevelOne)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2023.12.23-11.41.17:327][863]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.23-11.41.17:327][863]LogWorldPartition: UWorldPartition::Initialize : World = LevelOne, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.23-11.41.17:332][863]LogContentBundle: [LevelOne(Standalone)] Creating new contrainer.
+[2023.12.23-11.41.17:332][863]LogWorldPartition: Display: WorldPartition initialize took 5 ms (total: 862 ms)
+[2023.12.23-11.41.17:332][863]LogAssetEditorSubsystem: Opening Asset editor for World /Game/_Map/LevelOne.LevelOne
+[2023.12.23-11.41.17:332][863]Cmd: MAP LOAD FILE="D:/UnrealShooter/UnrealShooter/Content/_Map/LevelOne.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.12.23-11.41.17:334][863]LightingResults: New page: Lighting Build
+[2023.12.23-11.41.17:334][863]LoadErrors: New page: Loading map: LevelOne.umap
+[2023.12.23-11.41.17:343][863]LogWorld: UWorld::CleanupWorld for StarterMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.23-11.41.17:343][863]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.23-11.41.17:343][863]MapCheck: New page: Map Check
+[2023.12.23-11.41.17:343][863]LightingResults: New page: Lighting Build
+[2023.12.23-11.41.17:346][863]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.23-11.41.17:349][863]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2023.12.23-11.41.17:350][863]LogWorld: UWorld::CleanupWorld for LevelOne, bSessionEnded=true, bCleanupResources=true
+[2023.12.23-11.41.17:351][863]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.23-11.41.17:351][863]LogContentBundle: [LevelOne(Standalone)] Deleting container.
+[2023.12.23-11.41.17:353][863]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2023.12.23-11.41.17:355][863]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2023.12.23-11.41.17:360][863]LogAudio: Display: Audio Device (ID: 1) registered with world 'LevelOne'.
+[2023.12.23-11.41.17:360][863]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.23-11.41.17:360][863]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.23-11.41.17:360][863]LogAIModule: Creating AISystem for world LevelOne
+[2023.12.23-11.41.17:361][863]LogWorldPartition: ULevel::OnLevelLoaded(LevelOne)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2023.12.23-11.41.17:361][863]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.23-11.41.17:361][863]LogWorldPartition: UWorldPartition::Initialize : World = LevelOne, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.23-11.41.17:498][863]LogContentBundle: [LevelOne(Standalone)] Creating new contrainer.
+[2023.12.23-11.41.17:498][863]LogWorldPartition: Display: WorldPartition initialize took 136 ms (total: 999 ms)
+[2023.12.23-11.41.17:827][863]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.12.23-11.41.17:832][863]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2023.12.23-11.41.17:855][863]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.12.23-11.41.17:855][863]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.185ms to complete.
+[2023.12.23-11.51.17:408][993]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.12.23-11.51.17:412][993]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/_Map/LevelOne/9/Z6/EJ9JTCXCXTXCV4G970O1VH_Auto2
+[2023.12.23-11.51.17:412][993]LogSavePackage: Moving 'D:/UnrealShooter/UnrealShooter/Saved/EJ9JTCXCXTXCV4G970O1VH_Auto25393E7C04D2E5771F06748A9BDD237CB.tmp' to 'D:/UnrealShooter/UnrealShooter/Saved/Autosaves/Game/__ExternalActors__/_Map/LevelOne/9/Z6/EJ9JTCXCXTXCV4G970O1VH_Auto2.uasset'
+[2023.12.23-11.51.17:413][993]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/_Map/LevelOne' took 0.010
+[2023.12.23-11.51.17:413][993]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.010
+[2023.12.23-11.56.55:131][ 59]LogDerivedDataCache: C:/Users/sion_/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.055 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1912 files in 2910 folders with total size 91 MiB.
+[2023.12.23-12.01.18:066][664]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2023.12.23-12.01.18:067][664]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/_Map/LevelOne' took 0.005
